@@ -23,3 +23,5 @@ while contador <= 10:
 
 
 print('Acabou')
+
+# ele vai adicionando +1 até que o <= 10 seja falso, ou seja, quando atingir 10.
