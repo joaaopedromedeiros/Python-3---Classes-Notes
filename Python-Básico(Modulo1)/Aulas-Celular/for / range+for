@@ -6,8 +6,8 @@ range -> range(start, stop, step)
 """
 numeros = range(0, 100, 8)
 
-for numero in numeros:
-    print(numero)
+for valor in numeros:
+    print(valor)
 
 
 # No python na vdd o range au vai de 0, a 99 e pulando de 8 em 8
