@@ -12,4 +12,8 @@ for i in range(10):
 else:
     print('For completo com sucesso!')
 
-# Ou seja o continue é igual no while, o break também
+# Ou seja o continue é igual no while, o break também, else 
+
+# continue: volta pro início do bloco de código, pula o que vc falar pra pular  e volta
+# break: para todo o código e não fala o else, pula pra fora de todo o bloco de código
+# else: é executado após todo while ser finalizado/executado
