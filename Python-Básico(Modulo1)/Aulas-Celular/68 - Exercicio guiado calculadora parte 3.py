@@ -4,7 +4,7 @@ while True:
     numero_2 = input('Digite outro número: ')
     operador = input('Digite o operador (+-/*): ')
 
-    numeros_validos = None
+    numeros_validos = None # uma flag 
 
     try:
         num_1_float = float(numero_1)
@@ -15,7 +15,7 @@ while True:
 
     if numeros_validos is None:
         print('Um ou ambos os números digitados são inválidos.')
-        continue
+        continue #faz voltar pra reler 
 
     operadores_permitidos = '+-/*'
 
