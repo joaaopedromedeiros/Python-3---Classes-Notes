@@ -8,3 +8,6 @@ numeros = range(0, 100, 8)
 
 for numero in numeros:
     print(numero)
+
+
+# No python na vdd o range au vai de 0, a 99 e pulando de 8 em 8
