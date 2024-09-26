@@ -4,6 +4,9 @@ while True:
     numero_2 = input('Digite outro número: ')
     operador = input('Digite o operador (+-/*): ')
 
+    num_1_float = 0
+    num_2_float = 0
+
     numeros_validos = None # uma flag 
 
     try:
@@ -26,6 +29,21 @@ while True:
     if len(operador) > 1:
         print('Digite apenas um operador.')
         continue
+    
+
+   print("Realizando o calculo")
+   
+   if operador == '+' :
+   print(num_float_1 + num_float_2) 
+   elif operador == '-': 
+   print(num_float_1 - num_float_2) 
+   elif operador == '*': 
+   print(num_float_1 * num_float_2) 
+   elif operador == '/': 
+   print(num_float_1 / num_float_2) 
+   
+
+   
 
     ###
 
