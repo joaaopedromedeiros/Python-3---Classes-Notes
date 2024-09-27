@@ -60,4 +60,4 @@ def saudacao(nome='Sem nome'):
 saudacao('Luiz Otávio')
 saudacao('Maria')
 saudacao('Helena')
-saudacao()
+saudacao() # sem o >> ='Sem nome' << ali funciona, mas se chamar apenas saudacao(), ai se chamar a função sem valor da erro. Mas com ele ali aparece o sem nome
