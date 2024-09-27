@@ -7,6 +7,18 @@ lista_qualquer = ['Pedro','Joao','Fulano']
 nome1,nome2,nome3 = lista_qualquer
 print(nome2) # Resultado = Joao
 
+# Outra forma de exibir isso 
+nome1,nome2,nome3 = ['Pedro','Joao','Fulano']
+
+# mesma coisa 
+
+
+# Error caso seja pouca variável para muito valor (abaixo)
+
+lista_qualquer = ['Pedro','Joao','Fulano']
+
+nome1,nome2 = lista_qualquer
+print(nome2) # Error 
 
 
 # Notes da aula 
