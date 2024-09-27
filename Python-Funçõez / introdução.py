@@ -8,8 +8,16 @@ Por padrão, funções Python retornam None (nada).
 """
 
 #def FunçãoName(parâmetros):
- # esse parametros vão receber argumentos em algum momento, e vc precisa dar os seus valores de cada parâmetro se n dá erro
  #algo vai ser executado
+
+
+
+
+# esse parametros ( que é como se fossem uma variáveis criadas) vão receber valores em algum momento e por isso no scopo são argumentos,  e vc precisa dar os seus valores de cada parâmetro se n dá erro ao chamar ele. Se tem a,b,c de argumento, ao chamar na função é --> funcao(valor a, valor b, valor c)
+
+
+
+ 
 
 
 # def Print(a, b, c):
