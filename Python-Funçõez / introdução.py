@@ -8,7 +8,7 @@ Por padrão, funções Python retornam None (nada).
 """
 
 #def FunçãoName(parâmetros):
- # esse parametros vão receber argumentos em algum momento 
+ # esse parametros vão receber argumentos em algum momento, e vc precisa dar os seus valores de cada parâmetro se n dá erro
  #algo vai ser executado
 
 
