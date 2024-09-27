@@ -16,3 +16,5 @@ soma(3, 5)
 soma(100, 200)
 soma(7, 9, 0)
 soma(y=9, z=0, x=7)
+
+# se eu definir um parâmetro com valor padrão,  os demais após ele também vai precisar. Depois do Z se adicionar +1 vai precisar definir argumentos padrões
