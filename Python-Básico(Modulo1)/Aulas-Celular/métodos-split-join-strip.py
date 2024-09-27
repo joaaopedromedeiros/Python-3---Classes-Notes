@@ -16,3 +16,6 @@ for i, frase in enumerate(lista_frases_cruas):
 # print(lista_frases)
 frases_unidas = ', '.join(lista_frases)
 print(frases_unidas)
+
+# frases_unidas = 'como unir'.join(oq vou unir)
+print(frases_unidas)
