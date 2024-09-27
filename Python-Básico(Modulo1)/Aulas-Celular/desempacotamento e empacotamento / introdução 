@@ -37,4 +37,5 @@ print(resto) # aparece todo o resto das coisas
 
 
 # Para evitar o erro do pouco ou muita variável,  etc, pega o *(declara-variavel) que irá armazenar todo o resto que vc não vai precisar.
+# Para pegar um indice específico, vc poem o _, para ir pro indice que quer.
 
