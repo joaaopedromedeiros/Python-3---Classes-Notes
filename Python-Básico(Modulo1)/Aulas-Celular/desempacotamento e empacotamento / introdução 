@@ -18,7 +18,7 @@ nome1,nome2,nome3 = ['Pedro','Joao','Fulano']
 lista_qualquer = ['Pedro','Joao','Fulano']
 
 nome1,nome2 = lista_qualquer
-print(nome2) # Error 
+print(nome2) # Too many values to unpack
 
 
 # Notes da aula 
