@@ -33,3 +33,8 @@ print(nome2) # Error Not enough values to unpack
 
 _, _, nome, *resto = ['Maria', 'Helena', 'Luiz']
 print(nome)
+print(resto) # aparece todo o resto das coisas 
+
+
+# Para evitar o erro do pouco ou muita variável,  etc, pega o *(declara-variavel) que irá armazenar todo o resto que vc não vai precisar.
+
