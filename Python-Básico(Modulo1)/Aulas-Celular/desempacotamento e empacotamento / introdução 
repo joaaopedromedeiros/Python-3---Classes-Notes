@@ -1,0 +1,15 @@
+"""
+Introdução ao empacotamento e desempacotamento
+"""
+
+lista_qualquer = ['Pedro','Joao','Fulano']
+
+nome1,nome2,nome3 = lista_qualquer
+print(nome2) # Resultado = Joao
+
+
+
+# Notes da aula 
+
+_, _, nome, *resto = ['Maria', 'Helena', 'Luiz']
+print(nome)
