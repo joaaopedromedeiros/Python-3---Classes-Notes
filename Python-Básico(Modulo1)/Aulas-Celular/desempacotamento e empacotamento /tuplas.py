@@ -6,7 +6,8 @@ nomes = ('Maria', 'Helena', 'Luiz')
 # nomes_exemplo = ['Maria', 'Helena', 'Luiz']
 # nomes_coercao = tuple(nomes_exemplo) # converter lista em tuples
 
-# nomes = list(nomes)
+# nomes_coercao = list(nomes_exemplo) # converter tuple em list de volta
+
 print(nomes[-1])
 print(nomes)
 
