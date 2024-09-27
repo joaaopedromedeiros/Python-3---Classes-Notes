@@ -7,7 +7,7 @@ e retornar um valor específico.
 Por padrão, funções Python retornam None (nada).
 """
 
-#def FunçãoName():
+#def FunçãoName(parâmetros):
  #algo vai ser executado
 
 
