@@ -12,9 +12,9 @@ Criar, ler, alterar, apagar = lista[i] (CRUD)
 lista = [10, 20, 30, 40]
 
 # lista[2] = 300
-# del lista[2] --> não recomendado
+# del lista[2] --> não recomendado pois deleta indice e pd demorar pra processar se for uma lista enorme
 # print(lista) --> atualizou com o 300
-# print(lista[2]) 
+# print(lista[2]) --> pegou apenas o elemento do indice 2
 
 lista.append(50) # adiciona na última posição da lista
 lista.pop() # excluir o último da lista, no momento, que no caso é 50
