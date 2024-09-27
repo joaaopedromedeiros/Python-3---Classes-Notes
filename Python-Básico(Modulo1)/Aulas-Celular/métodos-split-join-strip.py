@@ -18,4 +18,4 @@ frases_unidas = ', '.join(lista_frases)
 print(frases_unidas)
 
 # frases_unidas = 'como unir'.join(oq vou unir)
-print(frases_unidas)
+print(frases_unidas), somente interáveis (strings, tuplas, etc)
