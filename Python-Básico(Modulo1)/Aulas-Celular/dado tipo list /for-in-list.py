@@ -11,5 +11,5 @@ for nome in lista:
      print(os dados do que eu quero, cada um em uma string, type(nome-do que eu quero)).
 
 # for nome in lista 
-   print(nome, type(nome)) 
+#   print(nome, type(nome)) 
    
