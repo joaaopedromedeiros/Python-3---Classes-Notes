@@ -7,6 +7,9 @@ e retornar um valor específico.
 Por padrão, funções Python retornam None (nada).
 """
 
+#def print():
+ #algo vai ser executado
+
 
 # def Print(a, b, c):
 #     print('Várias1')
