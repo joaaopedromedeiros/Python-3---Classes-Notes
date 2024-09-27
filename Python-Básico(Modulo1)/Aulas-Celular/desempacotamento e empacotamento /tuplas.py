@@ -2,7 +2,10 @@
 Tipo tupla - Uma lista imutável
 """
 nomes = ('Maria', 'Helena', 'Luiz')
-# nomes = tuple(nomes)
+
+# nomes_exemplo = ['Maria', 'Helena', 'Luiz']
+# nomes_coercao = tuple(nomes_exemplo) # converter lista em tuples
+
 # nomes = list(nomes)
 print(nomes[-1])
 print(nomes)
