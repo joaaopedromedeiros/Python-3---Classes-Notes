@@ -17,7 +17,7 @@ pessoa = {
 
 pessoa.setdefault('idade', 0)
 print(pessoa['idade'])
-# print(len(pessoa))
+# print(len(pessoa)) --> ver quantidade de chaves que tem
 # print(list(pessoa.keys()))
 # print(list(pessoa.values()))
 # print(list(pessoa.items()))
