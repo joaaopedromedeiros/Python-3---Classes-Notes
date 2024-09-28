@@ -34,6 +34,9 @@ def escopo():
 
 # Obs: mesmo que o x do escopo global não seja acessivel nos escopos das funções eu preciso criar ela no global antes de chamar a é função() se n dá erro de variável n criada.
 
+
+# variáveis  de dentro pedindo pra variáveis de fora eu tenho acesso, mas de fora pedindo acesso as de dentro n tenho acesso
+
 print(x) # x = 1
 escopo() # x = 10 escopo 1, 11 escopo 2
 print(x) # x = 1
