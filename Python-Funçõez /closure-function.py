@@ -10,7 +10,7 @@ Closure e funções que retornam outras funções
 
 #
 
-#s1 = criar_saudacao(bom dia, Luiz)
+#s1 = criar_saudacao('bom dia', 'Luiz')
 # print( s1() )
 
 
