@@ -24,6 +24,10 @@ def escopo():
 
     print(x)
 
+# quando executar a escopo() vai chamar as duas.
+
+# lembre-se, se vc criar uma variável no escopo global, vc pode acessar ela de qualquer lugar. Mas, se vc tiver um declarada/criada apenas dentro do escopo de uma função só é possível ser acessada lá.
+
 
 print(x)
 escopo()
