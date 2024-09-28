@@ -23,8 +23,8 @@ print(pessoa['idade'])
 
 # print(pessoa.keys()) --> ver todas as chaves
 
-# print(list(pessoa.keys())) --> as chaves
-# print(list(pessoa.values())) --> os valores de cada chave
+# print(list(pessoa.keys())) --> tosas as chaves
+# print(list(pessoa.values())) --> todos os valores de cada chave
 # print(list(pessoa.items())) --> chaves e os valores
 
 # for valor in pessoa.values():
