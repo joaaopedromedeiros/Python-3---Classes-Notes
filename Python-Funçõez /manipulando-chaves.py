@@ -12,7 +12,7 @@ chave = 'nome'
 # Abaixo eu criei usando a variável
 pessoa[chave] = 'Luiz Otávio'
 
-# Aqui abaixo usei a normal
+# Aqui abaixo usei a forma normal
 pessoa['sobrenome'] = 'Miranda'
 
 
