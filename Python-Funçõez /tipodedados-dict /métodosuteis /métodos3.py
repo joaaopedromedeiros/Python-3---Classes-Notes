@@ -16,9 +16,11 @@ p1 = {
 # print(p1['nome'])
 # print(p1.get('nome', 'Não existe')) --> msg de erro caso n ache 'Não existe'
 
-# nome = p1.pop('nome')
+# nome = p1.pop('nome') --> pop('quem-apagara'l
+
 # print(nome)
 # print(p1)
+
 # ultima_chave = p1.popitem()
 # print(ultima_chave)
 # print(p1)
