@@ -16,6 +16,9 @@ d1 = {
     'c2': 2,
     'l1': [0, 1, 2],
 }
+
+# Explicando o copy() abaixo: d2 = d1, como o dict é mutável então na verdade vc estaria atribuindo o valor diretamente sem fazer copia, como uma lista. Então vc usa o método copy()
+
 d2 = d1.copy()
 
 d2['c1'] = 1000
