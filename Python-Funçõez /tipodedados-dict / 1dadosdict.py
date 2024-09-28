@@ -9,7 +9,7 @@
 # Usamos as chaves - {} - ou a classe dict para criar
 # dicionários.
 # Imutáveis: str, int, float, bool, tuple
-# Mutável: dict, list
+# Mutável: dict, list []
 # pessoa = {
 #     'nome': 'Luiz Otávio',
 #     'sobrenome': 'Miranda',
