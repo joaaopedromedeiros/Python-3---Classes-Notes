@@ -13,6 +13,7 @@ Closure e funções que retornam outras funções
 #s1 = criar_saudacao('bom dia', 'Luiz')
 # print( s1() )
 
+# closure ( é isso acima)
 
 
 
