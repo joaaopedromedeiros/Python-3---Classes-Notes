@@ -41,7 +41,8 @@ pessoa = {
 # print(pessoa, type(pessoa))
 
 
-# Acessar o dict
+# Acessar os dados do dict
+
 print(pessoa['nome'])
 print(pessoa['sobrenome'])
 
