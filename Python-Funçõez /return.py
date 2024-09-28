@@ -3,8 +3,11 @@ Retorno de valores das funções (return)
 """
 
 
-# def soma(x, y):
-#    return x + y --> significa que sua função vai te retornar valores para utilizar em variaveis, etc e executar cálculo, etc. Sem o return a função seria NoneType e não conseguia reaproveitar os valores pra usar eles.
+# def soma(x, y): --> x,y = ingredientes
+# escopo = ações com esse ingrediente 
+#    return x + y -->  O que vc vai fornecer do que foi feito com os ingredientes para o resto do código
+
+# significa que sua função vai te retornar valores para utilizar em variaveis, etc e executar cálculo, etc. Sem o return a função seria NoneType e não conseguia reaproveitar os valores pra usar eles no resto do código.
 
 
 def soma(x, y):
