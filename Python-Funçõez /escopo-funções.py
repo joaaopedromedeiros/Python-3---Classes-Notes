@@ -1,3 +1,4 @@
+8
 """
 Escopo de funções em Python
 Escopo significa o local onde aquele código pode atingir.
@@ -29,6 +30,8 @@ def escopo():
 # lembre-se, se vc criar uma variável no escopo global, vc pode acessar ela de qualquer lugar. Mas, se vc tiver um declarada/criada apenas dentro do escopo de uma função só é possível ser acessada lá.
 
 # Obs²: o x definido no escopo global !=  (diferente) do x do escopo!!! Os valores, etc... nenhuma alteração da variável do escopo vai influenciar na global.
+
+# Obs: mesmo que o x do escopo global não seja acessivel nos escopos das funções eu preciso criar ela no global antes de chamar a é função().
 
 print(x) # x = 1
 escopo() # x = 10 escopo 1, 11 escopo 2
