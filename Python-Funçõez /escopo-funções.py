@@ -20,7 +20,8 @@ def escopo():
         y = 2
         print(x, y)
 
-    outra_funcao()
+    outra_funcao() # preciso declarar ela porque pra ter acesso a suas informações preciso chama lá na função maior ( >> escopo() <<)
+
     print(x)
 
 
