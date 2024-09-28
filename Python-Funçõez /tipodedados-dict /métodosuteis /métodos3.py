@@ -23,14 +23,23 @@ p1 = {
 
 # ultima_chave = p1.popitem() --> apaga última chame
 # print(ultima_chave)
-
-
 # print(p1)
+
+
+# >>>>>>>>>> Vc modifica na hora (abaixo) 
+
 # p1.update({
 #     'nome': 'novo valor',
 #     'idade': 30,
 # })
+
+
+
+# Adicionando de outra forma por argumento
 # p1.update(nome='novo valor', idade=30)
+
+
+
 # tupla = (('nome', 'novo valor'), ('idade', 30))
 lista = [['nome', 'novo valor'], ['idade', 30]]
 p1.update(lista)
