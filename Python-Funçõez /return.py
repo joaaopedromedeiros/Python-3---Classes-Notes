@@ -12,7 +12,7 @@ Retorno de valores das funções (return)
 
 def soma(x, y):
     if x > 10:
-        return [10, 20]
+        return [10, 20] # se essa for executada o return vai ser ativado ( pois a condição é verdadeira), e o resto do código abaixo desse return não funciona mais, pois dps de um return ativado dentro da função ela não lê mais nada abaixo...
     return x + y
     # print("...") --> depois de return não funciona mais nada. A função vai retornar tudo que já foi executado pro código.
 
