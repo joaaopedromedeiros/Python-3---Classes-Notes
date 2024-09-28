@@ -18,7 +18,8 @@
 # - Não aceitam valores mutáveis;
 # - não tem índexes;
 # - não garantem ordem;
-# - são iteráveis (for, in, not in)
+
+# - são iteráveis (for, in, not in) --> posso usar
 
 # l1 = [1, 2, 3, 3, 3, 3, 3, 1]
 # s1 = set(l1) --> tira os itens repetidos automaticamente [3,3,3,3...]
@@ -27,7 +28,8 @@
 
 
 # s1 = {1, 2, 3}
-# print(3 not in s1)
+# print(3 not in s1) # 3 em s1? True
+
 # for numero in s1:
 #     print(numero)
 
