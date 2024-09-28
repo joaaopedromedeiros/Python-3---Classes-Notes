@@ -11,9 +11,13 @@
 #     {'nome': 'Eduardo', 'sobrenome': 'Moreira'},
 #     {'nome': 'Aline', 'sobrenome': 'Souza'},
 # ]
+
+
 # lista = [4, 32, 1, 34, 5, 6, 6, 21, ]
-# lista.sort(reverse=True)
-# sorted(lista)
+# lista.sort(reverse=True) --> padrão, sem o (reverse=True), pq ai inverte o padrão.
+# sorted(lista) --> mesma coisa da de cima
+
+
 lista = [
     {'nome': 'Luiz', 'sobrenome': 'miranda'},
     {'nome': 'Maria', 'sobrenome': 'Oliveira'},
@@ -34,3 +38,6 @@ l2 = sorted(lista, key=lambda item: item['sobrenome'])
 
 exibir(l1)
 exibir(l2)
+
+
+# Essa função serve para modificar a ordenação da lista, tipo por em ordem alfabética.
