@@ -15,7 +15,8 @@ pessoa = {
     'idade': 900,
 }
 
-pessoa.setdefault('idade', 0)
+pessoa.setdefault('idade', 0) # define por padrão  que existe ('nome', valor)
+ 
 print(pessoa['idade'])
 
 # print(len(pessoa)) --> ver quantidade de chaves que tem
