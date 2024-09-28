@@ -20,7 +20,12 @@
 #         {'rua': 'outra rua', 'número': 321},
 #     ]
 # }
-# pessoa = dict(nome='Luiz Otávio', sobrenome='Miranda')
+
+
+# Pessoa = dict(nome='Luiz Otávio', sobrenome='Miranda') --> criando usando a classe dict com argumentos, usa ='...'. 
+# Com as chaves não funciona "=", vc só usa o ":"
+
+
 pessoa = {
     'nome': 'Luiz Otávio',
     'sobrenome': 'Miranda',
@@ -31,6 +36,8 @@ pessoa = {
         {'rua': 'outra rua', 'número': 321},
     ],
 }
+
+
 # print(pessoa, type(pessoa))
 print(pessoa['nome'])
 print(pessoa['sobrenome'])
