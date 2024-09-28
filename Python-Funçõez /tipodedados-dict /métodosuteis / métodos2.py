@@ -23,6 +23,7 @@ d2 = d1.copy()
 
 d2['c1'] = 1000
 d2['l1'][1] = 999999
+# d2['l1][indice] = 99999, equivale ao zero
 
 print(d1)
 print(d2)
