@@ -14,7 +14,7 @@ p1 = {
     'sobrenome': 'Miranda',
 }
 # print(p1['nome'])
-# print(p1.get('nome', 'Não existe'))
+# print(p1.get('nome', 'Não existe')) --> msg de erro caso n ache 'Não existe'
 
 # nome = p1.pop('nome')
 # print(nome)
