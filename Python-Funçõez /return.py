@@ -16,3 +16,10 @@ soma2 = soma(3, 3)
 print(soma1)
 print(soma2)
 print(soma(11, 55))
+
+
+#Anotações
+
+# Existem dois tipos de funções:
+# 1. Apenas executam ações e retorna None, como o print
+# 2. E outras que são específicas para retornar valores 
