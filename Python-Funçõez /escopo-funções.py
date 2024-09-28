@@ -27,11 +27,12 @@ def escopo():
 
 # quando executar a escopo() vai chamar as duas.
 
-# lembre-se, se vc criar uma variável no escopo global, vc pode acessar ela de qualquer lugar. Mas, se vc tiver um declarada/criada apenas dentro do escopo de uma função só é possível ser acessada lá.
+# lembre-se, se vc criar uma variável no escopo global, vc pode acessar ela de qualquer lugar sem alterar o valor global e só nela. Mas, se vc tiver um declarada/criada apenas dentro do escopo de uma função só é possível ser acessada lá (precisa declarar ela antes no global).
 
-# Obs²: o x definido no escopo global !=  (diferente) do x do escopo!!! Os valores, etc... nenhuma alteração da variável do escopo vai influenciar na global.
+# Obs²: o x definido no escopo global !=  (diferente) do x do escopo!!! Os valores, etc... nenhuma alteração da variável do escopo vai influenciar na global. Ao nenos que use
+# global "variável"
 
-# Obs: mesmo que o x do escopo global não seja acessivel nos escopos das funções eu preciso criar ela no global antes de chamar a é função().
+# Obs: mesmo que o x do escopo global não seja acessivel nos escopos das funções eu preciso criar ela no global antes de chamar a é função() se n dá erro de variável n criada.
 
 print(x) # x = 1
 escopo() # x = 10 escopo 1, 11 escopo 2
