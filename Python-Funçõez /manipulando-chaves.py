@@ -21,7 +21,7 @@ print(pessoa[chave])
 pessoa[chave] = 'Maria'
 
 
-# Apagando del
+# Apagando uma chave com del
 del pessoa['sobrenome']
 print(pessoa)
 print(pessoa['nome'])
