@@ -21,7 +21,8 @@
 # - são iteráveis (for, in, not in)
 
 # l1 = [1, 2, 3, 3, 3, 3, 3, 1]
-# s1 = set(l1)
+# s1 = set(l1) --> tira os itens repetidos ao exibir
+
 # l2 = list(s1)
 # s1 = {1, 2, 3}
 # print(3 not in s1)
@@ -30,6 +31,7 @@
 
 # Métodos úteis:
 # add, update, clear, discard
+
 
 # Operadores úteis:
 # união | união (union) - Une
