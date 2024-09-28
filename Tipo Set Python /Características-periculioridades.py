@@ -21,9 +21,11 @@
 # - são iteráveis (for, in, not in)
 
 # l1 = [1, 2, 3, 3, 3, 3, 3, 1]
-# s1 = set(l1) --> tira os itens repetidos ao exibir
+# s1 = set(l1) --> tira os itens repetidos automaticamente [3,3,3,3...]
 
-# l2 = list(s1)
+# l2 = list(s1) --> Agora ao converter pra lista o 3, 3,3,3,3 some
+
+
 # s1 = {1, 2, 3}
 # print(3 not in s1)
 # for numero in s1:
