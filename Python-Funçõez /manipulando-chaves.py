@@ -20,6 +20,8 @@ print(pessoa[chave])
 
 pessoa[chave] = 'Maria'
 
+
+# Apagando del
 del pessoa['sobrenome']
 print(pessoa)
 print(pessoa['nome'])
