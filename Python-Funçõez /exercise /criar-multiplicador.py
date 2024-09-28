@@ -14,10 +14,13 @@
 def criar_multiplicador(multiplicador):
     def multiplicar(numero):
         return numero * multiplicador
-    return multiplicar
+    return multiplicar  # resultado do def multiplicar(numero)
+
 
 
 duplicar = criar_multiplicador(2)
+ # esse duplica é a variavel acima = o valor definido...
+
 triplicar = criar_multiplicador(3)
 quadruplicar = criar_multiplicador(4)
 
