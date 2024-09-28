@@ -21,8 +21,10 @@ p1 = {
 # print(nome)
 # print(p1)
 
-# ultima_chave = p1.popitem()
+# ultima_chave = p1.popitem() --> apaga última chame
 # print(ultima_chave)
+
+
 # print(p1)
 # p1.update({
 #     'nome': 'novo valor',
