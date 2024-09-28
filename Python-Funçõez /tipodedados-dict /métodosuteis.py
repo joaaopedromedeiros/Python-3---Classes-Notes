@@ -25,7 +25,7 @@ print(pessoa['idade'])
 
 # print(list(pessoa.keys())) --> tosas as chaves
 # print(list(pessoa.values())) --> todos os valores de cada chave
-# print(list(pessoa.items())) --> chaves e os valores
+# print(list(pessoa.items())) --> todas as chaves e os valores
 
 # for valor in pessoa.values():
 #     print(valor)
