@@ -11,7 +11,7 @@ x = 1
 
 
 def escopo():
-    global x
+    #global x --> faz o x se tornar editável no scopo global
     x = 10
 
     def outra_funcao():
