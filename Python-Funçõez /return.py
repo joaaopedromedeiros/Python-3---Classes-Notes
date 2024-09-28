@@ -3,6 +3,10 @@ Retorno de valores das funções (return)
 """
 
 
+# def soma(x, y):
+#    return x + y --> significa que sua função vai te retornar valores para utilizar em variaveis, etc e executar cálculo, etc. Sem o return a função seria NoneType e não conseguia reaproveitar os valores pra usar eles.
+
+
 def soma(x, y):
     if x > 10:
         return [10, 20]
