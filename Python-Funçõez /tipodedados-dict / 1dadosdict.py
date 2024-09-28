@@ -39,6 +39,9 @@ pessoa = {
 
 
 # print(pessoa, type(pessoa))
+
+
+# Acessar o dict
 print(pessoa['nome'])
 print(pessoa['sobrenome'])
 
