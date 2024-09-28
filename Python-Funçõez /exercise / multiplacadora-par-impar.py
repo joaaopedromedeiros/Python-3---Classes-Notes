@@ -19,3 +19,24 @@ def par_ou_impar(number):
 check = par_ou_impar(10)
 print(check)
 
+
+# =============================
+
+# Misturando as duas funções 
+
+def multiplica(*args):
+    total = 1
+    for numero in args:
+        total *= numero
+    
+    if total % 2 == 0:
+        return f'O resultado da multiplicação é {total}, e ele  é par'
+    if total % 2 != 0:
+        return f'O resultado da multiplicação é {total}, e ele  é impar'
+    
+    
+mult = multiplica(1,5)
+print(mult)
+
+
+
