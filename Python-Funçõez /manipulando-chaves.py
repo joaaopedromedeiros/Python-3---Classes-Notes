@@ -4,9 +4,15 @@ pessoa = {}
 ##
 ##
 
+# Criando um dictionary dinamicamente
+
 chave = 'nome'
 
+# pessoa['nome'] = 'Luiz Otávio'
+# Abaixo eu criei usando a variável
 pessoa[chave] = 'Luiz Otávio'
+
+# Aqui abaixo usei a normal
 pessoa['sobrenome'] = 'Miranda'
 
 
