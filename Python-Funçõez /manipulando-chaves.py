@@ -26,7 +26,11 @@ del pessoa['sobrenome']
 print(pessoa)
 print(pessoa['nome'])
 
+
 # print(pessoa.get('sobrenome'))
+
+# Tenta obter, se n tiver NÃO EXISTE se tiver tenta mostrar
+
 if pessoa.get('sobrenome') is None:
     print('NÃO EXISTE')
 else:
