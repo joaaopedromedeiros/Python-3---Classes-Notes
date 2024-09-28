@@ -17,9 +17,13 @@ pessoa = {
 
 pessoa.setdefault('idade', 0)
 print(pessoa['idade'])
+
 # print(len(pessoa)) --> ver quantidade de chaves que tem
-# print(list(pessoa.keys()))
-# print(list(pessoa.values()))
+
+# print(pessoa.keys()) --> ver todas as chaves
+
+# print(list(pessoa.keys())) --> as chaves
+# print(list(pessoa.values())) --> os valores de cada chave
 # print(list(pessoa.items()))
 
 # for valor in pessoa.values():
