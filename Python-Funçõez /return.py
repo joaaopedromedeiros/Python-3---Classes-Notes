@@ -11,6 +11,7 @@ def soma(x, y):
     if x > 10:
         return [10, 20]
     return x + y
+    # print("...") --> depois de return não funciona mais nada. A função vai retornar tudo que já foi executado pro código.
 
 
 # variavel = soma(1, 2)
