@@ -28,6 +28,7 @@ def escopo():
 
 # lembre-se, se vc criar uma variável no escopo global, vc pode acessar ela de qualquer lugar. Mas, se vc tiver um declarada/criada apenas dentro do escopo de uma função só é possível ser acessada lá.
 
+# Obs²: o x definido no escopo global != do x do escopo!!! Os valores, etc
 
 print(x)
 escopo()
