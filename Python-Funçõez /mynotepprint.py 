@@ -8,6 +8,6 @@ def p(v):
 
 
 
-p(novos_produtos)
+p(novos_produtos), o conteúdo definido no argumento substituti o v
 
 # Como definir tipo o parâmetro e argumento pra reutilizar 
