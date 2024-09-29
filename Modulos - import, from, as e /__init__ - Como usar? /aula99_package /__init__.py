@@ -29,7 +29,15 @@ ex:
 
 print(pasta_package.__algumacoisa__)
 
+
+
 # nessa situação eu to importando todos os  arquivos para aqui.  Então aonde eu importar esse a pasta eu consigo usar!!!! como __AlgumaCoisa__
+
+
+# E nos arquivos? Como usar após importar? 
+
+from "pasta" import "oq-vc-quer", "oq-vc-quer3"
+# depois é só usar 
 
 
 
