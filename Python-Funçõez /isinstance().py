@@ -10,9 +10,14 @@ for item in lista:
         item.add(5)
         print(item, isinstance(item, set))
 
+# a partir do momento que o vscode percebe o tipo de dado ele já oferece os métodos daquele tipo, como o item.add que é possível usar com o set().
+
     elif isinstance(item, str):
         print('STR')
         print(item.upper())
+
+# já oferece o upper das strings... pois reconheceu 
+
 
     elif isinstance(item, (int, float)):
         print('NUM')
@@ -20,3 +25,6 @@ for item in lista:
     else:
         print('OUTRO')
         print(item)
+
+
+# sem checar com isistance o código provavelmente quebraria pois não teria como aplicar todos os métodos pra tudo, pois upper não funciona com set, ou add não funciona com string.
