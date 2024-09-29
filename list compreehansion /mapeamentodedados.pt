@@ -30,3 +30,4 @@ novos_produtos = [
 
 # print(novos_produtos)
 print(*novos_produtos, sep='\n')
+# apenas * pois é uma lista e não um dict (**) que precisa dos dois pra desempacotar e adicionou uma quebra de linha pra cada item
