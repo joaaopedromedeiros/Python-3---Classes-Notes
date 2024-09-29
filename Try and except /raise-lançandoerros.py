@@ -1,9 +1,14 @@
 # raise - lançando exceções (erros)
 # https://docs.python.org/pt-br/3/library/exceptions.html#built-in-exceptions
+
+
+
 def nao_aceito_zero(d):
     if d == 0:
         raise ZeroDivisionError('Você está tentando dividir por zero')
     return True
+
+# Vc mesmo lança o erro, raise ZeroDivisionError(), pois é uma classe e precisa do ()
 
 
 def deve_ser_int_ou_float(n):
