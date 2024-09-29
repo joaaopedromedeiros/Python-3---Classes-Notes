@@ -19,6 +19,9 @@
 
 
 
+
+
+
 # partes - from nome_modulo import objeto1, objeto2
 
 # Vantagens: nomes pequenos
@@ -33,6 +36,12 @@
 
 # Não pode escrever nenhuma função com exit pois vai dar conflito com a do modulo importado. Pois não usa namespace
 
+
+
+
+
+
+
 # alias 1 - import nome_modulo as apelido
 
 # >>> Codigo direto
@@ -41,6 +50,14 @@
 # sys = 'alguma coisa'
 # print(s.platform)
 # print(sys)
+
+
+# Para não dar conflito o sys com a variável do código importo ela as >>s<<, e o namespace para utilizar no código vai ser o s, como ta ali em s.platform
+
+
+
+
+
 
 
 # alias 2 - from nome_modulo import objeto as apelido
@@ -53,6 +70,8 @@
 
 # Vantagens: você pode reservar nomes para seu código
 # Desvantagens: pode ficar fora do padrão da linguagem
+
+
 
 # má prática - from nome_modulo import *
 # Vantagens: importa tudo de um módulo
