@@ -17,6 +17,6 @@ except NameError:
 except (TypeError, IndexError):
     print('TypeError + IndexError')
 except Exception:
-    print('ERRO DESCONHECIDO.')
+    print('ERRO DESCONHECIDO.') # Trata qualquer erro...
 
 print('CONTINUAR')
