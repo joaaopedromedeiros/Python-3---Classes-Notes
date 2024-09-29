@@ -1,6 +1,13 @@
 from aula99_package.modulo import *
 from aula99_package.modulo_b import *
 
+#Resume
+# 1) Cria uma pastanome
+# 2) Cria esse __init__.py
+# 3) Cria outros arquivos pra salvar funções, variáveis 
+# 4) Importa esses arquivos pro __init__.py
+# 5) Apenas por importar a pasta --> import pastanome
+# eu vou conseguir utilizar todas funções, variáveis,  etc que estão salvas no __init__.py
 
 
 # Observações MUITOOO IMPORTANTE:
