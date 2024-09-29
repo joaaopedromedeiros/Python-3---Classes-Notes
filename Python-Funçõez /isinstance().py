@@ -5,7 +5,7 @@ lista = [
 ]
 
 for item in lista:
-    if isinstance(item, set):
+    if isinstance(item, set): # set --> tipo de dado
         print('SET')
         item.add(5)
         print(item, isinstance(item, set))
