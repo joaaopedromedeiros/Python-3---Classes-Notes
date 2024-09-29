@@ -52,7 +52,7 @@
 # print(sys)
 
 
-# Para não dar conflito o sys com a variável do código importo ela as >>s<<, e o namespace para utilizar no código vai ser o s, como ta ali em s.platform
+# Para não dar conflito o sys com a variável do código importo ela as >>s<<, e o namespace para utilizar no código vai ser o s, como ta ali em s.platform. Recomenda-se mudar o nome da variável e não modulo pois os programadores já estão acostumado com o sys
 
 
 
