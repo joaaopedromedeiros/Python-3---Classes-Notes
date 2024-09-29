@@ -28,6 +28,18 @@ novos_produtos = [
     for produto in produtos # produto está sendo definido aqui
 ]
 
+>>>>
+
+# analisando essa linha pra entender o codigo
+
+# {**produto, >> 'preco': << produto['preco'] * 1.05}
+
+
+# >> 'preco': << é uma string, o valor do produto é mostrado dps em >>produto['preco']<<. Esse produto sem ser no plural é um item,  criado pelo for, in(da) lista de produtos. 
+
+
+>>>>
+
 # print(novos_produtos)
 print(*novos_produtos, sep='\n')
 # apenas * pois é uma lista e não um dict (**) que precisa dos dois pra desempacotar e adicionou uma quebra de linha pra cada item
