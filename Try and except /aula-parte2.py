@@ -25,4 +25,7 @@ except (TypeError, IndexError) as error:
 except Exception:
     print('ERRO DESCONHECIDO.')
 
+# esse as meio que define que os dois ali pertecem a uma "variável" error... tipo 
+# error = classe + classe (Exemplo ruim, n é exatamente assim ou parecido ) 
+
 print('CONTINUAR')
