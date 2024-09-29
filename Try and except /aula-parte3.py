@@ -3,6 +3,7 @@
 
 
 # finally sempre será executado mesmo que ocorra um erro. 
+# else: Quando não ocorre nenhum except
 
 # é tipo finalizar coo else no while... ele executa dps de tudo
 
