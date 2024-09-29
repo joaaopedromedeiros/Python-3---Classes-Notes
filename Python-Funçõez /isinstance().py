@@ -19,7 +19,7 @@ for item in lista:
 # já oferece o upper das strings... pois reconheceu 
 
 
-    elif isinstance(item, (int, float)):
+    elif isinstance(item, (int, float)): # perguntei se é int ou float, fica tipo "int ou float?" se passar por tupla.
         print('NUM')
         print(item, item * 2)
     else:
