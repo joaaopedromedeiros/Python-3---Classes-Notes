@@ -1,12 +1,8 @@
 # Empacotamento e desempacotamento de dicionários
-a, b = 1, 2
-a, b = b, a
-# print(a, b)
 
 
-# (a1, a2), (b1, b2) = pessoa.items()
-# print(a1, a2)
-# print(b1, b2)
+
+
 
 # for chave, valor in pessoa.items():
 #     print(chave, valor)
@@ -15,6 +11,13 @@ pessoa = {
     'nome': 'Aline',
     'sobrenome': 'Souza',
 }
+
+
+# (a1, a2), (b1, b2) = pessoa.items() --> desempacotamento (Nome, Aline), (sobrenome, Souza) 
+
+# print(a1, a2)
+# print(b1, b2)
+
 
 dados_pessoa = {
     'idade': 16,
