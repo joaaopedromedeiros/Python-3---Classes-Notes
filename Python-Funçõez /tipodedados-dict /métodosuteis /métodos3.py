@@ -41,6 +41,8 @@ p1 = {
 
 
 # tupla = (('nome', 'novo valor'), ('idade', 30))
+
 lista = [['nome', 'novo valor'], ['idade', 30]]
-p1.update(lista)
+p1.update(lista) --> adicionou a lista ao p1
+
 print(p1)
