@@ -41,8 +41,12 @@ def mostro_argumentos_nomeados(*args, **kwargs):
         print(chave, valor)
 
 
-# mostro_argumentos_nomeados(nome='Joana', qlq=123)
+# mostro_argumentos_nomeados(1,2,3, nome='Joana', qlq=123)
+
+# posso pasaar argumentos nomeados e não nomeado, kwargs com "**" no parâmetro, lembre-se
+
 # mostro_argumentos_nomeados(**pessoas_completa)
+
 
 configuracoes = {
     'arg1': 1,
