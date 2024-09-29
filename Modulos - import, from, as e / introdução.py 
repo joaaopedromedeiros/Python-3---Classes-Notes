@@ -24,9 +24,14 @@
 # Vantagens: nomes pequenos
 # Desvantagens: Sem o namespace do módulo
 
+#Warning: Cono não tem o namespace do modulo, vc vai importar e escrever diretamente sem precisar usar sys."algo", 
+
 # >>> Codigo direto
 # from sys import exit, platform
 # print(platform)
+# exit()
+
+# Não pode escrever nenhuma função com exit pois vai dar conflito com a do modulo importado. Pois não usa namespace
 
 # alias 1 - import nome_modulo as apelido
 
