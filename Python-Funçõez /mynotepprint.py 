@@ -1,0 +1,17 @@
+# Apenas criando uma função para uso próprio e facilitar o código  ( exemplo )
+
+import pprint
+
+
+def p(v):
+    pprint.pprint(v, sort_dicts=False, width=40)
+
+
+def p(v):
+    pprint.pprint(v, sort_dicts=False, width=40)
+
+
+
+p(novos_produtos)
+
+# Como definir tipo o parâmetro e argumento pra reutilizar 
