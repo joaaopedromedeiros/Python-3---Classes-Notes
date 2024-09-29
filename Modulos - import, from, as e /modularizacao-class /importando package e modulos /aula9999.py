@@ -6,9 +6,9 @@ from aula99_package.modulo import * # má prática
 
 # print(*path, sep='\n')
 
-print(soma_do_modulo(1, 2))
-print(aula99_package.modulo.soma_do_modulo(1, 2))
-print(modulo.soma_do_modulo(1, 2))
+print(soma(1, 2))
+print(aula99_package.modulo.soma(1, 2))
+print(modulo.soma(1, 2))
 
 # com má prática 
 print(variavel)
