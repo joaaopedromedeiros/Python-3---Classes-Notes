@@ -3,11 +3,11 @@
 
 def generator(n=0, maximum=10):
     while True:
-        yield n
+        yield n # pausa, dps continua
         n += 1
 
         if n >= maximum:
-            return
+            return # finaliza 
 
 
 gen = generator(maximum=1000000)
