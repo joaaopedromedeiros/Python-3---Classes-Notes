@@ -46,6 +46,7 @@ def mostro_argumentos_nomeados(*args, **kwargs):
 # posso pasaar argumentos nomeados e não nomeado, kwargs com "**" no parâmetro, lembre-se
 
 # mostro_argumentos_nomeados(**pessoas_completa)
+# acima desempacotei tudo, essa função isa for in
 
 
 configuracoes = {
