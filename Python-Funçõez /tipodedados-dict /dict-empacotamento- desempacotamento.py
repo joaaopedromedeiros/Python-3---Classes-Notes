@@ -26,6 +26,8 @@ dados_pessoa = {
 pessoas_completa = {**pessoa, **dados_pessoa}
 # print(pessoas_completa)
 
+# **pessoa --> extrair os dados de pessoa, mesma coisa con **dados_pessoas
+
 # args e kwargs
 # args (já vimos)
 # kwargs - keyword arguments (argumentos nomeados)
