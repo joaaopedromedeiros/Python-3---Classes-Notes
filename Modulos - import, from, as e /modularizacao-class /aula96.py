@@ -11,9 +11,21 @@
 # O python conhece todos os módulos e pacotes presentes nos caminhos de sys.path
 
 
-import aula97_m
-
 # No terminal vai carregar os códigos da aula97_m e depois os daqui
 
 
 print('Este módulo se chama', __name__)
+
+# Importando tudo
+import aula97_m
+
+print(variavel_modulo)
+print(soma(2, 3))
+
+ 
+
+# Importando cada coisa de uma vez 
+from aula97_m import soma, variavel_modulo
+
+print(aula97_m.variavel_modulo)
+print(aula97_m.soma(2, 3))
