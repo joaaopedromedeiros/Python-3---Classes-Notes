@@ -78,5 +78,7 @@
 # Desvantagens: importa tudo de um módulo
 # from sys import exit, platform
 
+# Vc poderá sobrescreve algo sem querer pois importou tudo de uma vez dentro do modulo, agora pode utilizar de diversas formas --> perigo. Importa o que vai precisar...
+
 # print(platform)
 # exit()
