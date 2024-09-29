@@ -6,8 +6,10 @@ produto = {
 }
 
 dc = {
-    chave: valor.upper()
+    chave: valor.upper() # dx tudo em CAPS
     if isinstance(valor, str) else valor
+# isinstance --> checar se ... 
+# se valor = str, dx UPPER se não valoe 
     for chave, valor
     in produto.items()
     if chave != 'categoria'
