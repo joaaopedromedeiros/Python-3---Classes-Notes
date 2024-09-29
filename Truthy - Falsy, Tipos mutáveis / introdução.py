@@ -12,6 +12,7 @@ nada = None
 falso = False
 intervalo = range(0)
 
+# Tudo vazio é considerado falso se usado if
 
 def falsy(valor):
     return 'falsy'if not valor else 'truthy'
