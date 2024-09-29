@@ -25,6 +25,10 @@ from aula99_package.modulo_b import *
 # tudo que é importado para aqui e possível usar como o __algumacoisa__
 # funções,  variáveis,  etc.
 
+ex:
+
+print(pasta_package.__algumacoisa__)
+
 # nessa situação eu to importando todos os  arquivos para aqui.  Então aonde eu importar esse a pasta eu consigo usar!!!! como __AlgumaCoisa__
 
 
