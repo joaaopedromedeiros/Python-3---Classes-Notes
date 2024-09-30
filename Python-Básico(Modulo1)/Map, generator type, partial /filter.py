@@ -23,5 +23,9 @@ novos_produtos = filter(
     filtrar_preco,
     produtos
 )
+
+# eu coloco a função dentro do escopo do filter sem o "()" de executar pq ele faz isso sozinho
+
+
 print_iter(produtos)
 print_iter(novos_produtos)
