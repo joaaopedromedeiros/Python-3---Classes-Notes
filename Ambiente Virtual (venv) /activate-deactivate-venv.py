@@ -16,4 +16,5 @@
 #Curiosidade  MUITO IMPORTANTE
 
 # É sempre bom instalar coisascom ele ativado no ambiente do projeto, pois se vc instalar sempre na sua maquina globalmente, com ele desativado, a cada projeto vc vai instalar tanta coisa que vai fazer ela ficar lenta e travar demais!
-#
+
+# Não instale o autopep!!!! Pois vai fazer instalar e executar as coisas na maquina globalmente
