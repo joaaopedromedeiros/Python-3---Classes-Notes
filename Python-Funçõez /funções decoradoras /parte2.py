@@ -14,7 +14,8 @@ def criar_funcao(func):
         print('Ok, agora você foi decorada')
         return resultado
     return interna
-@criar_funcao
+
+@criar_funcao # Syntax sugar, utilizando automaticamente 
 def inverte_string(string):
     print(f'{inverte_string.__name__}')
     return string[::-1]
