@@ -14,14 +14,14 @@ with open('tituloarquivo.json', 'w', encoding='utf8') as arquivo:
 
     # essa pessoa é a lista/tipodedado que vc deseja transformar em json 
 
-#3) Como importar ela do json pro python denovo?
+#3) Como importar os dados do json pro python denovo?
 
 with open('aula111.json', 'r', encoding='utf8') as arquivo:
     pessoa = json.load(arquivo)
 
     # print(pessoa)
     # print(type(pessoa)) --> veio em formato de dict, pois já era um né
-    print(pessoa['nome'])
+    print(pessoa['nome']) --> importou o dados do json
 
  
 
