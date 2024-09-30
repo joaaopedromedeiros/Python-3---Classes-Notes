@@ -4,4 +4,14 @@
 #2) Vc utiliza o código with...
 
 
+with open('tituloarquivo.json', 'r', encoding='utf8') as arquivo:
+    pessoa = json.load(arquivo) 
+
+    # essa pessoa é a lista/tipodedado que vc deseja transformar em json 
+
+    # print(pessoa)
+    # print(type(pessoa))
+    print(pessoa['nome'])
+
+
 # Obs: Funções,  métodos,  etc é mais complicado e não é bom salvar em json!  
