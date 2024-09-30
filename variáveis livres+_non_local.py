@@ -1,10 +1,10 @@
 # Variáveis livres + nonlocal (locals, globals)
 # print(globals())
 # def fora(x):
-#     a = x
+#     a = x --> variável livre 
 
 #     def dentro():
-#         # print(locals())
+#         # print(locals()) --> ver quais variáveis são locais 
 
 #         return a
 #     return dentro
