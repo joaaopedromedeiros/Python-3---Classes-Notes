@@ -1,4 +1,6 @@
 import json
+# Ativa os comandos 
+
 pessoa = {
     'nome': 'Luiz Otávio 2',
     'sobrenome': 'Miranda',
