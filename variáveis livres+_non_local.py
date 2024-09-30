@@ -43,4 +43,4 @@ print(final)
 
 # c = concatenar('a'), então ao chamar C, o resultado dessa função dentro dele ( a concatenar)  é o return que é = a função interna, então passa pela interna antes pra dps finalizar e sair o resultado.
 
-# Quando passa pela função interna, o argumento >>a<< recebido pela no parâmetro da concatenar é adicionado com o outro argumento passado para "valor_a_concatenar" pois na função interna tem aquele codigo dizendo que adiciona ao valor final e dps  retorna o valor final e assim finaliza a interna, e dps a função concatenar retorna o resultado
+# Quando passa pela função interna, o argumento >>a<< recebido pelo no parâmetro da concatenar é adicionado com o outro argumento passado para "valor_a_concatenar" pois na função interna tem aquele codigo dizendo que adiciona ao valor final e dps  retorna o valor final e assim finaliza a interna, e dps a função concatenar retorna o resultado
