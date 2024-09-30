@@ -4,6 +4,10 @@
 # pip - instalando pacotes e bibliotecas
 # Instalar última versão:
 # pip install nome_pacote
+
+# site de pegar pacotes disponíveis: pypi.org
+
+
 # Instalar versão precisa
 # (tem outras formas também não mencionadas)
 # pip install nome_pacote==0.0.0
