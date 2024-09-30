@@ -35,6 +35,10 @@ novos_produtos = list(map(
     muda_preco_de_produtos,
     produtos
 ))
+
+
+# mapear basicamente é uma copia de uma lista anterior e vc modifica ela totalmente, aqui em cima ta usando uma função de muda preço em produtos que vem de uma lista
+
 print_iter(produtos)
 print_iter(novos_produtos)
 print(
