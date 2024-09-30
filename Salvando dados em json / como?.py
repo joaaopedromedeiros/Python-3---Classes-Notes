@@ -4,8 +4,13 @@
 #2) Vc utiliza o código with...
 
 
-with open('tituloarquivo.json', 'r', encoding='utf8') as arquivo:
-    pessoa = json.load(arquivo) 
+with open('tituloarquivo.json', 'w', encoding='utf8') as arquivo:
+    json.dump(
+        pessoa,
+        arquivo,
+        ensure_ascii=False,
+        indent=2,
+    )
 
     # essa pessoa é a lista/tipodedado que vc deseja transformar em json 
 
