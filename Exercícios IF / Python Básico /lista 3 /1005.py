@@ -1,0 +1,2 @@
+#média ponderada
+
