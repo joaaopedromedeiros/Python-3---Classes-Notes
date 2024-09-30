@@ -18,8 +18,14 @@ total = reduce(
     0
 )
 print('Total é', total)
+
+
+# >>>>> Fazendo sem reduce ( easy ) abaixo.
+
 # total = 0
 # for p in produtos:
 #     total += p['preco']
 # print(total)
+
+# Outra forma também 
 # print(sum([p['preco'] for p in produtos]))
