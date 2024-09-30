@@ -15,3 +15,6 @@
 # pip uninstall nome_pacote
 # Congelar (ver pacotes)
 # pip freeze
+
+
+# MUITO LEGAL!!! Instalou? Pode usar import nome_pacote nas páginas da pasta do projeto que está o ambiente virtual
