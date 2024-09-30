@@ -1,6 +1,8 @@
 # count é um iterador sem fim (itertools)
 from itertools import count
-c1 = count(step=8, start=8)
+c1 = count(step=8, start=8) # INFINITO DE 8 EM 8
+# cuidado TRAVAR NOTEBOOK E PC!!!!
+
 r1 = range(8, 100, 8)
 print('c1', hasattr(c1, '__iter__'))
 print('c1', hasattr(c1, '__next__'))
@@ -8,8 +10,9 @@ print('r1', hasattr(r1, '__iter__'))
 print('r1', hasattr(r1, '__next__'))
 print('count')
 for i in c1:
-    if i >= 100:
-        break
+    if i >= 100: # SEM ISSO SEU PC TRAVA PQ ELE É INFINITO, CUIDADO!!!!!!!!!!!!!!!!!!!!!
+# CUIDADO!!!!! NÂO EXECUTE SEM ESSE IF!!!! INFINITO
+        break 
     print(i)
 print()
 print('range')
