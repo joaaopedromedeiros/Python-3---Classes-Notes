@@ -25,4 +25,4 @@ with open('aula111.json', 'r', encoding='utf8') as arquivo:
 
  
 
-# Obs: Funções,  métodos,  etc é mais complicado e não é bom salvar em json!  
+# Obs: Funções,  métodos,  etc é mais complicado e não é bom salvar em json!  Nem o tipo de dado set()
