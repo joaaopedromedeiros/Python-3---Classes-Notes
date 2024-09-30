@@ -32,7 +32,7 @@ def concatenar(string_inicial):
 
 c = concatenar('a')
 
-print(c('b'))
+print(c('b')) # concatenar('a')('c'), é tioo isso o c é da função interna
 print(c('c'))
 print(c('d'))
 final = c()
