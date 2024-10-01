@@ -10,6 +10,12 @@
 # print(string.upper())
 # print(isinstance(string, str))
 
+# >>>>>>>> Classificações
+# self: Se referência ao objeto (instância) que esta sendo criado
+# __init__: 
+# nome: 
+# sobrenome: 
+
 
 class Pessoa:
     def __init__(self, nome, sobrenome):
