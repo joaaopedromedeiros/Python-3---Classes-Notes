@@ -16,10 +16,18 @@ class Animal:
         return f'{self.nome} está comando {alimento}'
 
     def executar(self, *args, **kwargs):
-        return self.comendo(*args, **kwargs)
+        return self.comendo(*args, **kwargs) 
+# retornando a outra função apenas
 
 
 leao = Animal(nome='Leão')
 print(leao.nome)
+
+# >>>>>>>>>>>>>>>
+# print(leao.comendo('maça')
+
+# Nesse print eu não passo Leão como argumento pois a instância leao já tem como atributo definido, eu defini no leao = ... , o nome. Então só passa o atributo da comida pois o self é definido pelo self.nome já atribuido.
+# >>>>>>>>>>>>>>>>
+
 print(leao.executar('maçã'))
-# Nesse último print eu não passo Leão como argumento pois a instância leao já tem como atributo definido, eu defini no leao = ... , o nome. Então só passa o atributo da comida pois o self é definido pelo self.nome já atribuido.
+
