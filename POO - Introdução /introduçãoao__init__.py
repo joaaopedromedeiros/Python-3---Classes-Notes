@@ -23,11 +23,14 @@ class Pessoa:
         self.sobrenome = sobrenome
 
 # Observações ao definir os parâmetros:
-# 1°) Usa um def __init__(Parâmetros): ..
+# 1°) Usa a função def __init__(Parâmetros): ..
 # 2°) Precisa ser o primeiro param o self, obrigatoriamente, e dps vc pd passar o resto.
-# 3°) 
 
-p1 = Pessoa('Luiz', 'Otávio')
+# O que acontece com esse self? Assim que vc chama a classe o python já chama ele automaticamente. 
+
+# 3°) Cria os atributos com self.parametro = 
+
+p1 = Pessoa('Luiz', 'Otávio') # argumentos nome,sobrenome  
 
 # p1.nome = 'Luiz'
 # p1.sobrenome = 'Otávio'
