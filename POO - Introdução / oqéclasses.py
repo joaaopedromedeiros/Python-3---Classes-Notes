@@ -11,6 +11,7 @@
 # string = 'Luiz'  # str
 # print(string.upper())
 # print(isinstance(string, str))
+# Checa se a string é uma instância da classe STR 
 
 class Pessoa:
     ...
