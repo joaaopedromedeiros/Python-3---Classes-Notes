@@ -17,8 +17,11 @@
 
 # A classe responsável por todo funcionamento da string é classe str
 
+
 class Pessoa:
     ...
+
+# Agora já tem uma classe, por mais que não tenha nada dentro. Posso gerar as coisas nesse objeto (instância) 
 
 
 p1 = Pessoa('Luiz', 'Otávio')
