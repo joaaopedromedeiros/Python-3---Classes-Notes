@@ -11,9 +11,9 @@ class Carro:
 string = 'Luiz'
 print(string.upper())
 
-fusca = Carro('Fusca')
+fusca = Carro('Fusca') # param 1 (nome) = Fusca 
 print(fusca.nome)
-fusca.acelerar()
+fusca.acelerar() # Self = nome do objeto (instância), é o argumento --> fusca... dps a função faz o trabalho dela
 
 celta = Carro(nome='Celta')
 print(celta.nome)
