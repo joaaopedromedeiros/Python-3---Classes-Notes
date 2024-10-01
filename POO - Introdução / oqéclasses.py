@@ -17,6 +17,8 @@
 
 # A classe responsável por todo funcionamento da string é classe str
 
+#OBS: Sempre que chamo a classe eu crio um novo objeto (instância) do molde da classe 
+
 
 class Pessoa:
     ...
@@ -34,6 +36,9 @@ p1.sobrenome = 'Otávio'
 
 #Atributos/Propriedades:Dados dentro da classe
 # Ações dentro ds classe: métodos ( funções dentro da classe ) 
+
+
+# Novo objeto da mesma classe 
 
 p2 = Pessoa('Maria', 'Joana')
 p2.nome = 'Maria'
