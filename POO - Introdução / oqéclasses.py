@@ -23,10 +23,17 @@ class Pessoa:
 
 # Agora já tem uma classe, por mais que não tenha nada dentro. Posso gerar as coisas nesse objeto (instância) 
 
+# p1 = Pessoa()
 
-p1 = Pessoa('Luiz', 'Otávio')
-p1.nome = 'Luiz'
+p1 = Pessoa('Luiz', 'Otávio') #Add atributos
+
+# Acessando atributos (dados), não tem () no final pois não é método.
+
+p1.nome = 'Luiz' # forma de adicionar 
 p1.sobrenome = 'Otávio'
+
+# Atributos/Propriedades: Dados dentro da classe
+# Ações dentro ds classe: métodos ( funções dentro da classe ) 
 
 p2 = Pessoa('Maria', 'Joana')
 p2.nome = 'Maria'
