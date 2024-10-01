@@ -6,7 +6,7 @@ class Animal:
         self.nome = nome
 
         variavel = 'valor'
-        print(variavel) # Funciona pois ta no escopo, fora aparece que é outrange. 
+        print(variavel) # Funciona pois ta no escopo, fora ou qlq outro lugar aparece que é outrange.  Ele inicia logo com o init, se chamar essa classe
 
     def comendo(self, alimento):
         return f'{self.nome} está comando {alimento}'
