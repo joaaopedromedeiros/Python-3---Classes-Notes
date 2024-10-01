@@ -1,6 +1,7 @@
 # Oq é classes?
 
 # class - Classes são moldes para criar novos objetos
+
 # As classes geram novos objetos (instâncias) que
 # podem ter seus próprios atributos e métodos.
 
@@ -12,7 +13,8 @@
 # print(string.upper())
 
 # print(isinstance(string, str))
-# Checa se a string é uma instância da classe STR 
+# Checa se a string é um objeto (instância) da classe STR 
+
 # A classe responsável por todo funcionamento da string é classe str
 
 class Pessoa:
