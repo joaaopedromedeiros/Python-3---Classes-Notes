@@ -12,9 +12,9 @@
 
 # >>>>>>>> Classificações
 # self: Se referência ao objeto (instância) que esta sendo criado
-# __init__: 
-# nome: 
-# sobrenome: 
+# __init__: Ele inicializa os atributos da classe 
+# nome:  Atributo
+# sobrenome:  Atributo 
 
 
 class Pessoa:
