@@ -6,7 +6,7 @@ class Animal:
         self.nome = nome
 
         variavel = 'valor'
-        print(variavel)
+        print(variavel) # Funciona pois ta no escopo, fora aparece que é outrange. 
 
     def comendo(self, alimento):
         return f'{self.nome} está comando {alimento}'
