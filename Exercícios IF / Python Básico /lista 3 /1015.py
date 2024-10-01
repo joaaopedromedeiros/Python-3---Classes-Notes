@@ -10,6 +10,8 @@
 # ache a distância entre eles ( Repare que isso vai gerar um triangulo retangulo, logo apenas utilizo a formula de pitagoras ) 
 
 
+# My
+
 valores_1 = input("Defina dois pontos x1 e y1, respectivamente: ")
 
 valores_2 = input("Defina mais dois pontos x2 e y2, respectivamente: ")
@@ -48,6 +50,11 @@ exponencial = (x1 - x2)**2 + (y2 - y1)**2
 raiz = exponencial ** 0.5
 
 print(f'{raiz:.4f}')
+
+
+
+
+
 
 
 
