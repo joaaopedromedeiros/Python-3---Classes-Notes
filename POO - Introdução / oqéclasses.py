@@ -32,7 +32,7 @@ p1 = Pessoa('Luiz', 'Otávio') #Add atributos
 p1.nome = 'Luiz' # forma de adicionar 
 p1.sobrenome = 'Otávio'
 
-# Atributos/Propriedades: Dados dentro da classe
+#Atributos/Propriedades:Dados dentro da classe
 # Ações dentro ds classe: métodos ( funções dentro da classe ) 
 
 p2 = Pessoa('Maria', 'Joana')
