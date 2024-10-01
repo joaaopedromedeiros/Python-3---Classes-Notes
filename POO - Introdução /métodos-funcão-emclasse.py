@@ -6,7 +6,7 @@ class Carro:
 
     def acelerar(self):
         print(f'{self.nome} está acelerando...')
-
+# todo método recebe self se está se referindo a instância (objetos)
 
 string = 'Luiz'
 print(string.upper())
