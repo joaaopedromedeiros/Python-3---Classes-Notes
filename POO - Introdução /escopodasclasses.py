@@ -18,3 +18,4 @@ class Animal:
 leao = Animal(nome='Leão')
 print(leao.nome)
 print(leao.executar('maçã'))
+# Nesse último print eu não passo Leão como argumento pois a instância leao já tem como atributo definido, eu defini no leao = ... , o nome. Então só passa o atributo da comida pois o self é definido pelo self.nome já atribuido.
