@@ -16,8 +16,9 @@ class Animal:
         return f'{self.nome} está comando {alimento}'
 
     def executar(self, *args, **kwargs):
-        return self.comendo(*args, **kwargs) 
-# retornando a outra função apenas
+        return self.comendo(*args, **kwargs)
+ 
+# retornando a outra função apenas com + possibilidades de parâmetros nomeados ou não 
 
 
 leao = Animal(nome='Leão')
