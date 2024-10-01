@@ -13,7 +13,11 @@ print(string.upper())
 
 fusca = Carro('Fusca') # param 1 (nome) = Fusca 
 print(fusca.nome)
-fusca.acelerar() # Self = nome do objeto (instância), é o argumento --> fusca... dps a função faz o trabalho dela
+fusca.acelerar() 
+
+# Não passo nada nesse parâmetro pois já tem o self
+
+# Self = nome do objeto (instância), é o argumento --> fusca... dps a função faz o trabalho dela
 
 celta = Carro(nome='Celta')
 print(celta.nome)
