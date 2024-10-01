@@ -33,7 +33,9 @@ class Pessoa:
 
 >>>>>>>>>
 
-# 3°) Cria os atributos com self.parametro = 
+# 3°) Cria os atributos com self.nome = parâmetros que vai receber o argumento
+
+>>>>>>>>>>>>
 
 p1 = Pessoa('Luiz', 'Otávio') # argumentos nome,sobrenome  
 
