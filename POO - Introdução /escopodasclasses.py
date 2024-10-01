@@ -1,7 +1,8 @@
 # Escopo da classe e de métodos da classe (namespace --> escopo ) 
 
 # Escopo da classe, escopo de cada função interna
-# Variáveis pertencem a cada escopo.
+# Variáveis pertencem a cada escopo
+# O namespace do método = O escopo do método
 
 class Animal:
     # nome = 'Leão'
