@@ -22,6 +22,10 @@ class Pessoa:
         self.nome = nome
         self.sobrenome = sobrenome
 
+# Observações ao definir os parâmetros:
+# 1°) Usa um def __init__(Parâmetros): ..
+# 2°) Precisa ser o primeiro param o self, obrigatoriamente, e dps vc pd passar o resto.
+# 3°) 
 
 p1 = Pessoa('Luiz', 'Otávio')
 
