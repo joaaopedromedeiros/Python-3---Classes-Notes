@@ -49,3 +49,8 @@ print(p1.sobrenome)
 
 print(p2.nome)
 print(p2.sobrenome)
+
+
+
+# pilares de POO
+# Herança,  abstração, encapsulamento, polimorfismo 
