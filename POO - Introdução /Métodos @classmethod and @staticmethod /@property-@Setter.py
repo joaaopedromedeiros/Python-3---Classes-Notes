@@ -14,7 +14,8 @@ class Caneta:
         self._cor_tampa = None
 # se tiver "_" antes de algo como ._cor é uma
 # convenção entre devs que não se pode modificar esse
-# atributo 
+# atributo  ( 1 ou 2 --> "_" ou "__" )
+# NÃO DEVEM SER USADOS FORA DA CLASSE
 
     @property 
 # aqui é só um método que parece se comportar como atributo "caneta.cor = algo >> dá errado pois é um método << 
