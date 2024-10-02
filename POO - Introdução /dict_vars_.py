@@ -25,5 +25,5 @@ p1 = Pessoa(**dados)
 # print(vars(p1))
 # print(p1.outra)
 # print(p1.nome)
-print(vars(p1))
+print(vars(p1)) # --> mostra os dict tbm
 print(p1.nome)
