@@ -31,7 +31,7 @@ class Connection:
     def create_with_auth(cls, user, password):
         connection = cls() # variável dentro do escopo do método 
         connection.user = user
-        connection.password = password
+        connection.password = password # parece o self esse connection, né? Viu ai...
         return connection
 
 
