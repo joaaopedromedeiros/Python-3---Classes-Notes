@@ -14,7 +14,7 @@ p1 = Pessoa('João', 35)
 p2 = Pessoa('Helena', 12)
 
 print(Pessoa.ano_atual)
-# Pessoa.ano_atual = 1
+# Pessoa.ano_atual = 1 --> alterou o atributo da classe/molde, cuidado
 
 print(p1.get_ano_nascimento())
 print(p2.get_ano_nascimento())
