@@ -11,7 +11,11 @@ class Pessoa:
 
 
 dados = {'nome': 'João', 'idade': 35}
-p1 = Pessoa(**dados)
+p1 = Pessoa(**dados) # Desempacotando o dicionário fica assim
+# p1 = pessoa(nome='João', idade=35)
+
+# >>>>> Ou seja vai transformar o dict em objeto/instância
+
 # p1.nome = 'EITA'
 # print(p1.idade)
 
