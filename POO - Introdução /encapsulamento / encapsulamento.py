@@ -18,6 +18,9 @@ class Foo:
     def __init__(self):
         self.public = 'isso é público'
         self._protected = 'isso é protegido'
+
+# não acesse/use isso no código com print, variáveis,  etc
+
         self.__exemplo = 'isso é private'
 
     def metodo_publico(self):
