@@ -13,7 +13,8 @@ class Caneta:
         self.cor = cor
         self._cor_tampa = None
 
-    @property # aqui é só um método que parece se comportar como atributo "caneta.cor = algo >> dá errado pois é um método << 
+    @property 
+# aqui é só um método que parece se comportar como atributo "caneta.cor = algo >> dá errado pois é um método << 
     def cor(self):
         print('ESTOU NO GETTER')
         return self._cor
