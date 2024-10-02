@@ -20,7 +20,8 @@ class Connection:
 
 # funções acima
 
-# Situação abaixo: Criar um método que cria uma conexão que já recebe usuário e password
+# Situação abaixo: Criar um método que cria uma conexão que já recebe usuário e password, sem o self
+# usa classmethod
 
 # 1°) Não vamos ter acesso a self... pois já tá criado, 
 # auth --> autenticar dados de usuário e senha  (authentication) 
