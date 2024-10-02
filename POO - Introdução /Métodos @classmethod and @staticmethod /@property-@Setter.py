@@ -25,15 +25,18 @@ class Caneta:
 
     @property 
 # aqui é só um método que parece se comportar como atributo "caneta.cor = algo >> dá errado pois é um método <<<
-# Vc pd usar como atributo 
+# Vc pd usar como atributo, como ta nas 2 primeiras linhas com instância e print 
 
     def cor(self):
         print('ESTOU NO GETTER')
         return self._cor
 
+# abaixo: Aqui vc usa atribuindo valor mesmo devido ter o cor.setter 
+
     @cor.setter
 # assim posso atribuir no codigo, pois dá opção de setter 
 # aqui salva valor com o setter
+
     def cor(self, valor):
         print('ESTOU NO SETTER')
         self._cor = valor
@@ -48,7 +51,12 @@ class Caneta:
 
 
 caneta = Caneta('Azul')
+print(caneta.cor)
+
+# Depois do setter 
+
 caneta.cor = 'Rosa'
 caneta.cor_tampa = 'Azul'
+
 print(caneta.cor)
 print(caneta.cor_tampa)
