@@ -62,6 +62,6 @@ class Foo:
 
 # Fora da classe (tudo que ta abaixo) abaixo
 
-f = Foo()
+f = Foo() # --> executa tudo da classe só pra ver 
 # print(f.public)
 print(f.metodo_publico())
