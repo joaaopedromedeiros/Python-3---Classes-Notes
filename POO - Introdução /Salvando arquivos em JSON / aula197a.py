@@ -34,3 +34,4 @@ if __name__ == '__main__':
 
 
 # precisa dessas coisas acima, esse código w = criar
+# indent=2 : Deixar a formatação boa, o ensure_ascii também...
