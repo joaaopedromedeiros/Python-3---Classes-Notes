@@ -27,7 +27,7 @@ class Connection:
 # auth --> autenticar dados de usuário e senha  (authentication) 
 # Quero acesso ao cls, a classe 
 
-    @classmethod
+    @classmethod # então usa cls
     def create_with_auth(cls, user, password):
         connection = cls() # variável dentro do escopo do método 
         connection.user = user
