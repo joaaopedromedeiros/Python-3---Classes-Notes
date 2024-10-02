@@ -47,7 +47,7 @@ class Caneta:
     def cor_tampa(self):
         return self._cor_tampa
 
-# Setter = Atribui o dado 
+# Setter = Libera atribuir dados manualmente
     @cor_tampa.setter
     def cor_tampa(self, valor):
         self._cor_tampa = valor
