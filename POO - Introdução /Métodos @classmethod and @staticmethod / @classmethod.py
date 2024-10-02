@@ -15,7 +15,8 @@ class Pessoa:
         print('Hey')
 
     @classmethod
-    def criar_com_50_anos(cls, nome):
+    def criar_com_50_anos(cls, nome): 
+# cls = classe, nome --> define e o 50 segue a ordem da classe como idade, por isso fala p2.idade e aparece 50
         return cls(nome, 50)
 
     @classmethod
