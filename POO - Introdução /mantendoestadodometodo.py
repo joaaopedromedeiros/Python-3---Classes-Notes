@@ -47,3 +47,4 @@ c2.parar_filmar()
 c2.fotografar()
 
 # esses métodos vão fazer vc setar estados que vão indicar o que a Camera nesse caso pd fazer. Esses estados vc definiu na função
+# Cada Camera vai ter seu estado devido vc mudar a ordem das ações feitas em cada ima
