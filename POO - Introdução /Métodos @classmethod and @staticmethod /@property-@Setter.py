@@ -41,10 +41,13 @@ class Caneta:
         print('ESTOU NO SETTER')
         self._cor = valor
 
+# Property = getter  (pega informação)
+
     @property
     def cor_tampa(self):
         return self._cor_tampa
 
+# Setter = Atribui o dado 
     @cor_tampa.setter
     def cor_tampa(self, valor):
         self._cor_tampa = valor
