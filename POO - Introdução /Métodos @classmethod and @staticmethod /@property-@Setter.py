@@ -19,7 +19,8 @@ class Caneta:
         print('ESTOU NO GETTER')
         return self._cor
 
-    @cor.setter # assim posso atribuir no codigo, pois dá opção de setter 
+    @cor.setter
+# assim posso atribuir no codigo, pois dá opção de setter 
     def cor(self, valor):
         print('ESTOU NO SETTER')
         self._cor = valor
