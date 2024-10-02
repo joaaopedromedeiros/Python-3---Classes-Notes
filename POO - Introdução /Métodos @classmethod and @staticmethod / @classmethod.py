@@ -28,9 +28,19 @@ class Pessoa:
 
 
 p1 = Pessoa('João', 34)
+# Usa a classe toda normalmente
+
 p2 = Pessoa.criar_com_50_anos('Helena')
+# Reaproveitou o molde da classe, e só
+# passou uma coisa 
+
+
 p3 = Pessoa('Anônima', 23)
 p4 = Pessoa.criar_sem_nome(25)
+
+print(Pessoa.metodo_de_classe())
+# funciona mesmo sem passar instância 
+
 print(p2.nome, p2.idade)
 print(p3.nome, p3.idade)
 print(p4.nome, p4.idade)
