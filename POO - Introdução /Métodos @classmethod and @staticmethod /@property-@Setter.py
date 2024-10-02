@@ -15,12 +15,14 @@ class Caneta:
 
     @property 
 # aqui é só um método que parece se comportar como atributo "caneta.cor = algo >> dá errado pois é um método << 
+# não salva valor o property
     def cor(self):
         print('ESTOU NO GETTER')
         return self._cor
 
     @cor.setter
 # assim posso atribuir no codigo, pois dá opção de setter 
+# aqui salva valor com o setter
     def cor(self, valor):
         print('ESTOU NO SETTER')
         self._cor = valor
