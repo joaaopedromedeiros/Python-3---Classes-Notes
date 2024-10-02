@@ -5,14 +5,18 @@
 class Connection:
     def __init__(self, host='localhost'):
         self.host = host
-        self.user = None
+        self.user = None 
         self.password = None
+
+# Olha que foda! Criei funções para setar esses valores, tipo criar comandos do minecraft
 
     def set_user(self, user):
         self.user = user
 
     def set_password(self, password):
         self.password = password
+
+# funções acima
 
     @classmethod
     def create_with_auth(cls, user, password):
