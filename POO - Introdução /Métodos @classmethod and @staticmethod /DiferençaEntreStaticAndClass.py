@@ -29,7 +29,7 @@ class Connection:
 
     @classmethod # então usa cls
     def create_with_auth(cls, user, password):
-        connection = cls() # variável dentro do escopo do método 
+        connection = cls() # variável dentro do escopo do método, usei a classe e posso por connection.algp chamando elaaa
         connection.user = user
         connection.password = password # parece o self esse connection, né? Viu ai...
 # devido usar o @classmethod e ter o cls posso fazer isso. E dps usa os args já existentes na classe
