@@ -19,7 +19,7 @@ class Caneta:
         self.cor_tinta = cor
 
     @property
-    def cor(self):
+    def cor(self): # .cor, vai retornar isso
         print('PROPERTY')
         return self.cor_tinta
 
@@ -50,6 +50,9 @@ print(caneta.cor_tampa)
 #     def get_cor(self):
 #         print('GET COR')
 #         return self.cor_tinta
+# Os cliente vai usar a função, e toda vez que eu alterar algo dentro da função como o cor_tinta e no self.cor_tinta é só mudar dentro da função e lá em cima e como o cliente chama apenas a função o nome continua o mesmo ( só atualizou coisas internas que chama automaticamente mesmo editando ) 
+
+
 
 # ###########################
 
