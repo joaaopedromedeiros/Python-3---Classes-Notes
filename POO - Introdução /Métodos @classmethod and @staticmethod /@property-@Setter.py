@@ -13,14 +13,20 @@ class Caneta:
         # private protected
         self.cor = cor
         self._cor_tampa = None
+
+# >>>>>>>>>>
 # se tiver "_" antes de algo como ._cor é uma
 # convenção entre devs que não se pode modificar esse
 # atributo  ( 1 ou 2 --> "_" ou "__" )
 # NÃO DEVEM SER USADOS FORA DA CLASSE, NEM EM PRINT, NEM EM NADA... SÓ PD AQUI
+#>>>>>>>>>
+
+# Não use oq disse acima, use como se fosse atributo isso abaixo 
 
     @property 
-# aqui é só um método que parece se comportar como atributo "caneta.cor = algo >> dá errado pois é um método << 
-# não salva valor o property
+# aqui é só um método que parece se comportar como atributo "caneta.cor = algo >> dá errado pois é um método <<<
+# Vc pd usar como atributo 
+
     def cor(self):
         print('ESTOU NO GETTER')
         return self._cor
