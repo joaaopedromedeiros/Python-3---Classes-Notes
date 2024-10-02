@@ -31,6 +31,7 @@ class Foo:
         return 'metodo_publico'
 
     def _metodo_protected(self):
+# Apenas utiliza na classe,  não chama ela.
         print('_metodo_protected')
         return '_metodo_protected'
 
@@ -38,6 +39,8 @@ class Foo:
         print('__metodo_private')
         return '__metodo_private'
 
+
+# Fora da classe (tudo que ta abaixo) 
 
 f = Foo()
 # print(f.public)
