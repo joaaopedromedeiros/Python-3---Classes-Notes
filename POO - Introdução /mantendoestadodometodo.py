@@ -45,3 +45,5 @@ c2.filmar()
 c2.fotografar()
 c2.parar_filmar()
 c2.fotografar()
+
+# esses métodos vão fazer vc setar estados que vão indicar o que a Camera nesse caso pd fazer. Esses estados vc definiu na função
