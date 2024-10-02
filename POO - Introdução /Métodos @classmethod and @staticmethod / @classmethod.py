@@ -9,10 +9,13 @@ class Pessoa:
         self.nome = nome
         self.idade = idade
 
-    @classmethod # --> Faz ser possível funcionar o método mesmo sem ser associado a uma instância/objeto. Analise que tudo agora é cls e não self, pois agora é executado mesmo sem ter uma instância como p1.algo
+    # @classmethod # --> Faz ser possível funcionar o método mesmo sem ser associado a uma instância/objeto. Analise que tudo agora é cls e não self, pois agora é executado mesmo sem ter uma instância como p1.algo
 
+    @classmethod
     def metodo_de_classe(cls):
         print('Hey')
+
+# Apenas por por Pessoa.metodo_de_classe() já funciona mesmo sem passar instâncias/objetospois a própria classe substitui, devido o @classmethod...
 
     @classmethod
     def criar_com_50_anos(cls, nome): 
