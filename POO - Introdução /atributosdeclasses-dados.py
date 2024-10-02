@@ -1,6 +1,6 @@
 # Atributos de classe
 class Pessoa:
-    ano_atual = 2022
+    ano_atual = 2022 # Criando esse atributo que está disponível em todas as instâncias da classe 
 
     def __init__(self, nome, idade):
         self.nome = nome
