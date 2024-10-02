@@ -2,16 +2,24 @@
 # Python NÃO TEM modificadores de acesso
 
 # Mas podemos seguir as seguintes convenções
+
 #   (sem underline) = public
+#   pode ser usado em qualquer lugar
+# >> Métodos e self.algo
 
-#       pode ser usado em qualquer lugar
+
 # _ (um underline) = protected
+# não DEVE ser usado fora da classe
+# ou suas subclasses.
+# >>> _Métodos e self_algo
 
-#       não DEVE ser usado fora da classe
-#       ou suas subclasses.
+
 # __ (dois underlines) = private
+# Não pode ser usado nas classes filhas!
+# >>>> __Métodos e self__algo 
 
-# >>> Não pode ser usado nas classes filhas!
+# Obs: protected & private podem ser utilizado em qualquer lugar DENTRO DA CLASSE.
+
 
 
 #       "name mangling" (desfiguração de nomes) em Python
