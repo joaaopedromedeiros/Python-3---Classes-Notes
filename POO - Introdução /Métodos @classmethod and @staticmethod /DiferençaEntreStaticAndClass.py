@@ -16,14 +16,25 @@ class Connection:
     def set_password(self, password):
         self.password = password
 
+# Qualquer palavra que for usar self, é um método de instância! Precisa do self dentro do método? Instância 
+
 # funções acima
+
+# Situação abaixo: Criar um método que cria uma conexão que já recebe usuário e password
+
+# 1°) Não vamos ter acesso a self... pois já tá criado, 
+# auth --> autenticar dados de usuário e senha  (authentication) 
+# Quero acesso ao cls, a classe 
 
     @classmethod
     def create_with_auth(cls, user, password):
-        connection = cls()
+        connection = cls() # variável dentro do escopo do método 
         connection.user = user
         connection.password = password
         return connection
+
+
+
 
     @staticmethod
     def log(msg):
