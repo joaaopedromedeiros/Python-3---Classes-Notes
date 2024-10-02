@@ -32,7 +32,7 @@ class Connection:
         connection = cls() # variável dentro do escopo do método 
         connection.user = user
         connection.password = password # parece o self esse connection, né? Viu ai...
-# devido set @classmethod e ter o cls posso fazer issoo. 
+# devido usar o @classmethod e ter o cls posso fazer isso. E dps usa os args já existentes na classe
         return connection
 
 
