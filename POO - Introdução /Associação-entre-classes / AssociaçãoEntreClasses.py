@@ -1,4 +1,5 @@
 # Relações entre classes: associação, agregação e composição
+
 # Associação é um tipo de relação onde os objetos
 # estão ligados dentro do sistema.
 # Essa é a relação mais comum entre objetos e tem subconjuntos
@@ -7,6 +8,8 @@
 # um atributo que referencia outro objeto.
 # A associação não especifica como um objeto controla
 # o ciclo de vida de outro objeto.
+
+# O escritor usa a ferramenta
 
 
 # Site para desenhar d. drawio, diagrams net 
