@@ -12,6 +12,20 @@
 # Exiba o nome do carro, motor e fabricante na tela
 
 
+# Exercício com classes
+# 1 - Crie uma classe Carro (Nome)
+# 2 - Crie uma classe Motor (Nome)
+# 3 - Crie uma classe Fabricante (Nome)
+# 4 - Faça a ligação entre Carro tem um Motor
+# Obs.: Um motor pode ser de vários carros
+
+
+# 5 - Faça a ligação entre Carro e um Fabricante 
+# Obs.: Um fabricante pode fabricar vários carros
+
+# Exiba o nome do carro, motor e fabricante na tela
+
+
 class Carro:
     def __init__(self, modelo):
         self._modelo = modelo
@@ -39,8 +53,12 @@ class Carro:
     def set_fabricante(self, empresa):
         self._fabricante_carro = empresa
     
-    def carprofile(self):
-        print(f'O seu carro é {self._modelo}')
+    def carprofile(self, *args, **kwargs):
+        motor_nome = self._motor_carro.motor
+                # apenas adiconou o .motor pra acessar o valor
+        fabricante_nome = self._fabricante_carro.fabricante
+        # apenas adiconou o .fabricante pra acessar o valor 
+        print(f'O seu carro é {self._modelo}, seu motor é {motor_nome} e fabricante {fabricante_nome}')
     
     
     
@@ -67,8 +85,11 @@ uno = Carro("uno")
 motor_fiat = Motor("V10")
 fabricante_fiat = Fabricante("fiat")
 
+
+
 print(vars(motor_fiat))
 print(vars(fabricante_fiat))
+
 
 
 
@@ -79,15 +100,12 @@ print(vars(fabricante_fiat))
 
 uno.set_motor = motor_fiat
 uno.set_fabricante = fabricante_fiat
+
 uno.carprofile()
-
-print(uno.set_fabricante)
-
 # print(vars(uno)) --> tire o # e veja que tá sentando corretamente 
 
 
 # Falta desempacotar tipo nesse último print sem #
-
 
 
 
