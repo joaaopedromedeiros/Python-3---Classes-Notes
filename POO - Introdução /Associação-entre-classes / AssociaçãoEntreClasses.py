@@ -48,8 +48,8 @@ maquina_de_escrever = FerramentaDeEscrever('Máquina')
 escritor.ferramenta = maquina_de_escrever
 
 #escritor.atributoCriado = algo 
+# Definindo ferramenta (atributo escrito) escrito com outra classe 
 
-# Isso acima basicamente é definir o atributo de ferramenta do escritor sendo = a ferramenta definida na outra classe 
 
 # Print do resultado
 
