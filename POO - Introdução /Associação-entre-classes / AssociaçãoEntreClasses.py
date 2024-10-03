@@ -9,7 +9,7 @@
 # o ciclo de vida de outro objeto.
 
 
-# Site para desenhar d. drawio net 
+# Site para desenhar d. drawio, diagrams net 
 
 
 class Escritor:
