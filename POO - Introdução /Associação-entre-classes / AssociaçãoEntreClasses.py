@@ -36,10 +36,25 @@ class FerramentaDeEscrever:
         return f'{self.nome} está escrevendo'
 
 
+# Classe 1 
 escritor = Escritor('Luiz')
+
+# Classe 2 (1° Ferramenta)
 caneta = FerramentaDeEscrever('Caneta Bic')
-maquina_de_escrever = FerramentaDeEscrever('Máquina')
+maquina_de_escrever = 
+
+# Classe 2 (2°Ferramenta)
+FerramentaDeEscrever('Máquina')
+
+# Associação das classes abaixo: 
+
 escritor.ferramenta = maquina_de_escrever
+
+#escritor.atributoCriado = algo 
+
+# Isso acima basicamente é definir o atributo de ferramenta do escritor sendo = a ferramenta definida na outra classe 
+
+# Print do resultado
 
 print(caneta.escrever())
 print(maquina_de_escrever.escrever())
