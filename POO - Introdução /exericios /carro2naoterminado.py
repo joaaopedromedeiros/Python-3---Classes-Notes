@@ -86,6 +86,9 @@ print(uno.set_fabricante)
 # print(vars(uno)) --> tire o # e veja que tá sentando corretamente 
 
 
+# Falta desempacotar tipo nesse último print sem #
+
+
 
 
 
