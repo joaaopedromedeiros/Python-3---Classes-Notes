@@ -44,6 +44,8 @@ class Produto:
         self.nome = nome
         self.preco = preco
 
+# Agregar oq for passado em produto no carrinho 
+
 
 carrinho = Carrinho() # Criou o carrinho
 p1, p2 = Produto('Caneta', 1.20), Produto('Camiseta', 20) # P1 e P2 respectivamente
