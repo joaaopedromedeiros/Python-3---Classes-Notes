@@ -5,6 +5,7 @@
 # apagadas.
 
 # Se apaga o "todo" apaga tudo que tem dentro
+# Diamante todo fechado
 
 
 class Cliente:
