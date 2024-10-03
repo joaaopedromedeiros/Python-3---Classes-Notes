@@ -17,11 +17,13 @@ class Escritor:
         self.nome = nome
         self._ferramenta = None
 
-    @property
+    @property 
+# Criando o atributo separado
     def ferramenta(self):
         return self._ferramenta
 
-    @ferramenta.setter
+    @ferramenta.setter 
+# Adicionando pra conseguir atribuir no texto
     def ferramenta(self, ferramenta):
         self._ferramenta = ferramenta
 
