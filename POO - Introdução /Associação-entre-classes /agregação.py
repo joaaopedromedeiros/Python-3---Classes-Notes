@@ -8,6 +8,9 @@
 # se tratar de uma relação onde um objeto precisa de
 # outro para fazer determinada tarefa.
 # (existem controvérsias sobre as definições de agregação).
+
+# Um ou muitos: Muitos produtos no carrinho de compras
+
 class Carrinho:
     def __init__(self):
         self._produtos = []
