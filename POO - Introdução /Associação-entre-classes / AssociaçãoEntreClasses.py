@@ -23,7 +23,7 @@ class Escritor:
         return self._ferramenta
 
     @ferramenta.setter 
-# Adicionando pra conseguir atribuir no texto
+# Adicionando pra conseguir atribuir na variável 
     def ferramenta(self, ferramenta):
         self._ferramenta = ferramenta
 
