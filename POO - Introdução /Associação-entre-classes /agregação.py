@@ -24,17 +24,19 @@ class Carrinho:
     def inserir_produtos(self, *produtos):
         # self._produtos.extend(produtos)
         # self._produtos += produtos
-# *produtos = empacotar em tuple o que for passado 
-# cada tupla de produto em produtos vc vai inserir sempre o novo >>em último append<<
         for produto in produtos:
             self._produtos.append(produto)
+
+# *produtos = empacotar em tuple o que for passado 
+# cada tupla de produto em produtos vc vai inserir sempre o novo >>em último append<<
 
     def listar_produtos(self):
         print() # só pra espaço 
         for produto in self._produtos:
             print(produto.nome, produto.preco)
-# produto.nome e produto.preco --> definido na class Produto
         print() # só pra espaço 
+
+# produto.nome e produto.preco --> definido na class Produto
 
 
 class Produto:
