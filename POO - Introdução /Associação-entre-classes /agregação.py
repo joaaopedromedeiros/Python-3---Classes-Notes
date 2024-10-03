@@ -10,25 +10,32 @@
 # (existem controvérsias sobre as definições de agregação).
 
 # Um ou muitos: Muitos produtos no carrinho de compras
+# Diamante --> fechado a setinha 
 
 class Carrinho:
     def __init__(self):
         self._produtos = []
 
     def total(self):
-        return sum([p.preco for p in self._produtos])
+        return sum([p.preco for p in self._produtos]) 
+
+# Preço de cada produto de "p" em self._produtos 
 
     def inserir_produtos(self, *produtos):
         # self._produtos.extend(produtos)
         # self._produtos += produtos
+
+# *produtos = empacotar em tuple o que for passado 
+# cada tupla de produto em produtos vc vai inserir sempre o novo >>em último append<<
         for produto in produtos:
             self._produtos.append(produto)
 
     def listar_produtos(self):
-        print()
+        print() # só pra espaço 
         for produto in self._produtos:
             print(produto.nome, produto.preco)
-        print()
+# produto.nome e produto.preco --> definido na class Produto
+        print() # só pra espaço 
 
 
 class Produto:
@@ -37,8 +44,11 @@ class Produto:
         self.preco = preco
 
 
-carrinho = Carrinho()
-p1, p2 = Produto('Caneta', 1.20), Produto('Camiseta', 20)
+carrinho = Carrinho() # Criou o carrinho
+p1, p2 = Produto('Caneta', 1.20), Produto('Camiseta', 20) # P1 e P2 respectivamente
+ 
 carrinho.inserir_produtos(p1, p2)
+
 carrinho.listar_produtos()
+
 print(carrinho.total())
