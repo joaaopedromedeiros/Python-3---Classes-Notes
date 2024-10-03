@@ -29,7 +29,7 @@ class Caneta:
     def cor_tampa(self):
         return 123456
 
-###########################
+# # #########################
 
 
 caneta = Caneta('Azul')
@@ -41,7 +41,7 @@ print(caneta.cor)
 print(caneta.cor)
 print(caneta.cor_tampa)
 
-#####################################
+# ####################################
 
 # class Caneta:
 #     def __init__(self, cor):
