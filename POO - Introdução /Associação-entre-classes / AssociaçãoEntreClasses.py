@@ -29,7 +29,7 @@ class Escritor:
 
 
 class FerramentaDeEscrever:
-    def __init__(self, nome):
+    def __init__(self, nomeferramenta):
         self.nomeferramenta = nomeferramenta
 
     def escrever(self):
