@@ -19,13 +19,14 @@ class Carrinho:
     def total(self):
         return sum([p.preco for p in self._produtos]) 
 
-# Preço de cada produto de "p" em self._produtos 
+# Preço de cada produto "p" em self._produtos 
 
     def inserir_produtos(self, *produtos):
         # self._produtos.extend(produtos)
         # self._produtos += produtos
 
 # *produtos = empacotar em tuple o que for passado 
+
 # cada tupla de produto em produtos vc vai inserir sempre o novo >>em último append<<
         for produto in produtos:
             self._produtos.append(produto)
