@@ -45,7 +45,7 @@ maquina_de_escrever = FerramentaDeEscrever('Máquina')
 
 # Associação das classes abaixo: 
 
-escritor.ferramenta = maquina_de_escrever
+escritor.ferramenta = maquina_de_escrever # o self.nomeferramenta = maquina que foi atribuido 
 
 #escritor.atributoCriado = algo 
 # Definindo ferramenta (atributo property 
