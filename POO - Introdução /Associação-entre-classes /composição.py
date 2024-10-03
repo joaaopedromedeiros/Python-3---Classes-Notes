@@ -3,6 +3,10 @@
 # Mas nela, quando o objeto "pai" for apagado, todas
 # as referências dos objetos filhos também são
 # apagadas.
+
+# Se apaga o "todo" apaga tudo que tem dentro
+
+
 class Cliente:
     def __init__(self, nome):
         self.nome = nome
