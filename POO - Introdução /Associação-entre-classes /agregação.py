@@ -24,9 +24,7 @@ class Carrinho:
     def inserir_produtos(self, *produtos):
         # self._produtos.extend(produtos)
         # self._produtos += produtos
-
 # *produtos = empacotar em tuple o que for passado 
-
 # cada tupla de produto em produtos vc vai inserir sempre o novo >>em último append<<
         for produto in produtos:
             self._produtos.append(produto)
