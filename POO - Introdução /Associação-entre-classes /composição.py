@@ -14,7 +14,7 @@ class Cliente:
         self.enderecos = []
 
     def inserir_endereco(self, rua, numero):
-        self.enderecos.append(Endereco(rua, numero))
+        self.enderecos.append(Endereco(rua, numero)) # método recebe  classe, composição 
 
     def inserir_endereco_externo(self, endereco):
         self.enderecos.append(endereco)
