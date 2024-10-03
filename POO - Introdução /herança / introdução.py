@@ -17,3 +17,6 @@
 # Cliente é uma pessoa com atributos de pessoa 
 # Classes filhas (Cliente) 
 #   -> sub class, child class, derived class
+
+
+# Os atributos, métodos, etcm.. passa pra classe filha pois ela é FILHA da classe maior ( estão ligadas entre si ) 
