@@ -30,7 +30,7 @@ class Escritor:
 
 class FerramentaDeEscrever:
     def __init__(self, nome):
-        self.nome = nome
+        self.nomeferramenta = nomeferramenta
 
     def escrever(self):
         return f'{self.nome} está escrevendo'
