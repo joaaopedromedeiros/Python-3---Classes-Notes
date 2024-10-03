@@ -48,7 +48,8 @@ maquina_de_escrever = FerramentaDeEscrever('Máquina')
 escritor.ferramenta = maquina_de_escrever
 
 #escritor.atributoCriado = algo 
-# Definindo ferramenta (atributo escrito) escrito com outra classe 
+# Definindo ferramenta (atributo property 
+# de escritor) escrito com outra classe 
 
 
 # Print do resultado
