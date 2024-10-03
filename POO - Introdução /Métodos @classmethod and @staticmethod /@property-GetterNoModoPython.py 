@@ -18,7 +18,7 @@ class Caneta:
     def __init__(self, cor):
         self.cor_tinta = cor
 
-    @property
+    @property # Faz se torna "atributo" e não precisa de (), mas esse atributo n é  possível ser nomeado " .cor = algo "
     def cor(self): # .cor, vai retornar isso
         print('PROPERTY')
         return self.cor_tinta
