@@ -9,7 +9,11 @@
 #
 # Herança vs Composição
 #
-# Classe principal (Pessoa)
+# Classe principal (Pessoa) --> + genérico  com mais informações, generização, 
 #   -> super class, base class, parent class
-# Classes filhas (Cliente)
+
+# Agora, tudo que for uma pessoa pode erdar atributo da pessoa. 
+
+# Cliente é uma pessoa com atributos de pessoa 
+# Classes filhas (Cliente) 
 #   -> sub class, child class, derived class
