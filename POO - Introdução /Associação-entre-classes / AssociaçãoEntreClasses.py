@@ -41,10 +41,7 @@ escritor = Escritor('Luiz')
 
 # Classe 2 (1° Ferramenta)
 caneta = FerramentaDeEscrever('Caneta Bic')
-maquina_de_escrever = 
-
-# Classe 2 (2°Ferramenta)
-FerramentaDeEscrever('Máquina')
+maquina_de_escrever = FerramentaDeEscrever('Máquina')
 
 # Associação das classes abaixo: 
 
