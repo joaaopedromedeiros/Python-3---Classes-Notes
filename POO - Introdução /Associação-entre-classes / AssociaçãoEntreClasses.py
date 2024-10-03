@@ -7,6 +7,11 @@
 # um atributo que referencia outro objeto.
 # A associação não especifica como um objeto controla
 # o ciclo de vida de outro objeto.
+
+
+# Site para desenhar d. drawio net 
+
+
 class Escritor:
     def __init__(self, nome) -> None:
         self.nome = nome
