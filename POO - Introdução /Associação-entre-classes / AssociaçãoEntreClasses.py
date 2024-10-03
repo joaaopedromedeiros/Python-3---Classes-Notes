@@ -44,3 +44,5 @@ escritor.ferramenta = maquina_de_escrever
 print(caneta.escrever())
 print(maquina_de_escrever.escrever())
 print(escritor.ferramenta.escrever())
+
+# E esse .ferramenta? É do @property que transforma o método/função em "atributo" e usa em ().
