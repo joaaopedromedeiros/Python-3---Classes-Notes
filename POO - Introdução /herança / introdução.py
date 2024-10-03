@@ -11,12 +11,12 @@
 #
 # Classe principal (Pessoa) --> + genérico  com mais informações, generização, 
 #   -> super class, base class, parent class
-
+# (termos que se refere)
 # Agora, tudo que for uma pessoa pode erdar atributo da pessoa. 
 
 # Cliente é uma pessoa com atributos de pessoa 
 # Classes filhas (Cliente) 
-#   -> sub class, child class, derived class
+#   -> sub class, child class, derived class (termos que se refere)
 
 
 # Os atributos, métodos, etcm.. passa pra classe filha pois ela é FILHA da classe maior ( estão ligadas entre si ) 
