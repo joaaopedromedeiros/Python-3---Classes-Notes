@@ -82,7 +82,7 @@ class C(A):
         print('C')
 
 
-class D(B, C): # A ordem de chamar obedece a ordem dos parâmetros ( vai em b dos c procurar o método )
+class D(B, C): # A ordem de chamar obedece a ordem dos parâmetros ( vai em b dps o c e busca o método )
     ...
 
     def quem_sou(self):
@@ -91,7 +91,7 @@ class D(B, C): # A ordem de chamar obedece a ordem dos parâmetros ( vai em b do
 
 d = D()
 d.quem_sou()
-# print(D.__mro__)
-print(D.mro())
+# print(D.__mro__) --> ver ordem de aonde busca
+print(D.mro()) # --> ver ordem de aonde busca
 
 .
