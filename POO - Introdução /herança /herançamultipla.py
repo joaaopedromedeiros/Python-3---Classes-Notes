@@ -82,7 +82,7 @@ class C(A):
         print('C')
 
 
-class D(B, C):
+class D(B, C): # A ordem de chamar obedece a ordem dos parâmetros ( vai em b dos c procurar o método )
     ...
 
     def quem_sou(self):
