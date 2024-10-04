@@ -31,7 +31,7 @@ class B(A):
         super().__init__(atributo)
         self.outra_coisa = outra_coisa
 
-# Precisa desse super pra dar prioridade a isso pois vai ter 2 métofos em B quando herda as coisas de A. Sempre faz isso se tiver dois __init__.
+# Precisa desse super pra dar prioridade a isso pois vai ter 2 métofos em B quando herda as coisas de A. Sempre  vc faz isso se tiver dois __init__ pois dá erro!
 
     def metodo(self):
         print('B')
