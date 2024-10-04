@@ -15,14 +15,15 @@ class Eletronico:
 
 class Smartphone(Eletronico, LogFileMixin):
     def ligar(self):
-        super().ligar()
+        super().ligar() # super pra pegar as primeiras funcionalidades e conseguir add mais
+
         if self._ligado:
             msg = f'{self._nome} está ligado'
             self.log_success(msg)
     
 
    def desligar(self):
-        super().desligar()
+        super().desligar() # " mesma coisa de acima "
         if not self._ligado:
             msg = f'{self._nome} está desligado'
             self.log_error(msg)
