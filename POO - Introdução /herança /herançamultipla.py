@@ -11,7 +11,7 @@
 # A, B, C, D
 # D(B, C) - C(A) - B(A) - A
 #
-# método -> falar
+# método -> falar, D não tem o método mas entre B e C por aonde ele vai chamar?
 #           A
 #         /   \
 #        B     C
