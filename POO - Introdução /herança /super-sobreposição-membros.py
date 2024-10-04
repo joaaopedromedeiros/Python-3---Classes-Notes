@@ -32,7 +32,7 @@ class B(A):
         self.outra_coisa = outra_coisa
 
 # Precisa desse super pra dar prioridade a isso pois vai ter 2 métofos em B quando herda as coisas de A. Sempre  vc faz isso se tiver dois __init__ pois dá erro!
-# Chama o init do A para sobrescrever o de B, passando o atributo
+# Chama o init do A para sobrescrever o de B, passando o atributo. Além disso, vc pd passar outros argumentos em B além dos de A
 
     def metodo(self):
         print('B')
