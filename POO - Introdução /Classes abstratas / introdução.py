@@ -27,7 +27,7 @@ class Log(ABC):
     def log_success(self, msg):
         return self._log(f'Success: {msg}')
 
-
+# Coloca o log herdando como ta aqui abaixo,e dps pra usar o método chama esse aqui de baixo 
 class LogPrintMixin(Log):
     def _log(self, msg):
         print(f'{msg} ({self.__class__.__name__})')
