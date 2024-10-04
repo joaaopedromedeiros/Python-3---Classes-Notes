@@ -44,7 +44,7 @@ class C(B):
 
     def metodo(self):
         # super().metodo()  # B
-        # super(B, self).metodo()  # A
+        # super(B, self).metodo()  # A, sou B puxo dados de A
         # super(A, self).metodo()  # object
         A.metodo(self)
         B.metodo(self)
