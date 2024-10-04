@@ -42,3 +42,6 @@ a1 = Aluno('Maria', 'Helena')
 a1.falar_nome_classe()
 print(a1.cpf)
 # help(Cliente)
+
+
+# Use Herança simples com moderecao,  3 níveis... de Herança.  Se passwr disso fica complexo pra debuggar dps e fica extremamente complexaa
