@@ -6,7 +6,7 @@
 # Herança múltipla e mixins
 # Log -> FileLog
 # Animal -> Mamifero -> Humano -> Pessoa -> Cliente
-# Cliente(Pessoa, FileLog)
+# Cliente(Pessoa, FileLog) # múltipla Herança,  pessoa, filelog 
 #
 # A, B, C, D
 # D(B, C) - C(A) - B(A) - A
@@ -17,7 +17,9 @@
 #        B     C
 #         \   /
 #           D
-#
+# Problema do Diamante (acima), porque
+# se eu quisr utikiza método dd C ou de B e eles forem igual, qual vai ser o caminho? 
+
 # Python 3 usa C3 superclass linearization
 # para gerar o mro.
 # Você não precisa estudar isso (é complexo)
