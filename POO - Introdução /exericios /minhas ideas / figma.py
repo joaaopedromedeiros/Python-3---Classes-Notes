@@ -48,9 +48,9 @@ team = input("Quem desenvolve o projeto")
 date = input("Qual data é hoje?")
 status = input("Qual o nivel de desenvolvimento?")
 
-# Como ta na classe FigmaProject, os valores desse input com o mesmo nome do parametro vai virar argumento dos parâmetros da classe.
+# 1.0 Como ta na classe FigmaProject, os valores desse input com o mesmo nome do parametro vai virar argumento dos parâmetros da classe.
 
-# Aquela parte de property e setter è apenas para exibjr os valores obtidos como argumentos na string. Só de fazer isso com o input acima vc já consegue setar valores como disse acima
+# Aquela parte de property e setter è apenas para exibjr os valores obtidos como argumentos na string. Só de criar so input acima com o mesmo nome do parâmetro vc já consegue setar valores como disse acima em (1.0)
 
 try:
     p = FigmaProject(projectname, team, date, status)
