@@ -48,6 +48,8 @@ team = input("Quem desenvolve o projeto")
 date = input("Qual data é hoje?")
 status = input("Qual o nivel de desenvolvimento?")
 
+# Como ta na classe FigmaProject, os valores desse input com o mesmo nome do parametro vai virar argumento dos parâmetros da classe
+
 try:
     p = FigmaProject(projectname, team, date, status)
     print(vars(p))
