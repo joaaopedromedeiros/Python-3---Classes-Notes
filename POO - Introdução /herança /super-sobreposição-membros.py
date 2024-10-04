@@ -48,7 +48,7 @@ class C(B):
         # super(A, self).metodo()  # object
         A.metodo(self)
         B.metodo(self)
-        print('C')
+        print('C') # --> executa apenas isso pois é a última a serr definida (MRO)
 
 
 # print(C.mro())
