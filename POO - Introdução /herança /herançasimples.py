@@ -33,6 +33,8 @@ class Aluno(Pessoa):
     cpf = 'cpf aluno'
     ...
 
+# esse cpf aluno tem prioridade pois o resolution method é de baixo pra cima
+
 
 c1 = Cliente('Luiz', 'Otávio')
 c1.falar_nome_classe()
