@@ -1,4 +1,4 @@
-# super() e a sobreposição de membros - Python Orientado a Objetos
+# super() e a sobreposição de membros/atributos - Python Orientado a Objetos
 # Classe principal (Pessoa)
 #   -> super class, base class, parent class
 # Classes filhas (Cliente)
@@ -44,6 +44,7 @@ class C(B):
     def __init__(self, *args, **kwargs):
         # print('EI, burlei o sistema.')
         super().__init__(*args, **kwargs)
+# Sobrepôs tudo
 
     def metodo(self):
         # super().metodo()  # B
