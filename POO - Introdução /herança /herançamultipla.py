@@ -69,7 +69,7 @@ class A:
 
 
 class B(A):
-    ...
+    ... # não pd deixar bloco vazio no python então coloca isso, ou também pode por pass
 
     # def quem_sou(self):
     #     print('B')
