@@ -23,6 +23,7 @@ class Pessoa:
 class Cliente(Pessoa):
     def falar_nome_classe(self):
         print('EITA, nem saí da classe CLIENTE')
+# Exibe primeiro pq executa primeiro, o method resolution order vem aqui primeiro de baixo pra cima
         print(self.nome, self.sobrenome, self.__class__.__name__)
 
 # Herdou colocando (Pessoa)
