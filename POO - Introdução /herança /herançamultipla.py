@@ -18,7 +18,7 @@
 #         \   /
 #           D
 # Problema do Diamante (acima), porque
-# se eu quisr utikiza método dd C ou de B e eles forem igual, qual vai ser o caminho? 
+# se eu quisr utikiza método dd C ou de B e eles forem igual, qual vai ser o caminho da ordem de chamada dos métodos? 
 
 # Python 3 usa C3 superclass linearization
 # para gerar o mro.
