@@ -43,7 +43,7 @@ print(Pessoa.metodo_de_classe())
 
 print(p2.nome, p2.idade)
 print(p3.nome, p3.idade)
-print(p4.nome, p4.idade)
+print(p4.nome, p4.idade) # esse .nome e .idade é correspondente ao parâmetro 
 
 # print(Pessoa.ano) --> cls, sem instância/objeto
 # Pessoa.metodo_de_classe() --> cls, sem instância/objeto
