@@ -25,6 +25,8 @@ class Cliente(Pessoa):
         print('EITA, nem saí da classe CLIENTE')
         print(self.nome, self.sobrenome, self.__class__.__name__)
 
+# Herdou colocando (Pessoa)
+
 
 class Aluno(Pessoa):
     cpf = 'cpf aluno'
