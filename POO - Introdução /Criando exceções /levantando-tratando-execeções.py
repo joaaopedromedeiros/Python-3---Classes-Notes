@@ -29,7 +29,7 @@ def levantar():
 # erro no sistema. Vc faz assim: 
 
 try:
-    #1/0  --> se tirar isso aparece que foi Division error no primeiro print e msg padrão desse erro
+    #1/0  --> se o # aparece que foi ZeroDivision error no primeiro print e msg padrão desse erro
     levantar()
 except (MeuError, ZeroDivisionError) as error:
     print(error.__class__.__name__) # Ver a classe que foi ativada com o erro
