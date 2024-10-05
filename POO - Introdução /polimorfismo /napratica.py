@@ -77,4 +77,7 @@ notificar(notificacao_sms)
 # Devido não ter nenhum anteriormente e apenas
 # Criamos o print para cada situação e o seu retorno
 
-# >> Outra observação 
+# >> -> bolean
+# MUITO IMPORTANTE!
+# Você está falando para o(a) dev que vai usar o dado
+# verdadeiro ou falso no seu código a fim de executar algo
