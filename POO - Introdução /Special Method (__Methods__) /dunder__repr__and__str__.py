@@ -26,7 +26,8 @@ class Ponto:
         self.z = z
 
 # __str__ = Geralmente usado para mostrar ao
-# usuário, os valores dos argumentos dos objetos que usam a classe
+# usuário, os valores dos argumentos dos objetos que 
+# usam a classe
 
     def __str__(self):
         return f'({self.x}, {self.y})'
