@@ -73,7 +73,7 @@ notificar(notificacao_sms)
 
 # >> Criando as classes filhas de notificação
 # Quando herdei Notificação nas classes filhas eu 
-não utilizei o super().algumAtributoJáDefinidoAntes 
+# não utilizei o super().algumAtributoJáDefinidoAntes 
 # Devido não ter nenhum anteriormente e apenas
 # Criamos o print para cada situação e o seu retorno
 
