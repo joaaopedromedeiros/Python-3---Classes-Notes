@@ -88,5 +88,11 @@ notificar(notificacao_sms)
 # def notificar(notificação: str):
 #     notificação.upper()
 # Obs¹: Caso passe algo diferente de string, isso apresenta error.
-
+# EITA! Lembra que str, o tipo de dado, é uma classe? 
+# Então, eu posso dizer que
+# notificacao (parâmetro) é do tipo de dado
+#  -->  Notificacao(classe) 
+# (notificacao: Notificacao), o que acontece no código realmente.
+# Também posso utilizar os métodos dentro da classe, como a str usadia o .upper()
+# Ali usei o .enviar()
   
