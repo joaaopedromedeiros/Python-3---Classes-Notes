@@ -39,6 +39,7 @@ class Notificacao(ABC):
 # Sem utilizar em classes concretas, vc não vai conseguir usar a abstrata ( abastrat: Tipo de atributo incerto ) 
 # poderia ser:
 # Notificação do próprio celular, cartorio. Então é abstrato. 
+# Obs¹: Como aqui o enviar é bool, seguindo liskov, as suas filhas herdeiras devem ser bool e retornar true or false 
 
 
 
