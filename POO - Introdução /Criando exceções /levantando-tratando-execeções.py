@@ -15,10 +15,14 @@ class OutroError(Exception):
     ...
 def levantar():
     exception_ = MeuError('a', 'b', 'c')
+
+# Devido querer enviar +1 dado de error criei 
+# essa tupla que vai chegar em forma de dados ->
+# fornato de  args.
+
     raise exception_
 
 # Esse tipo de função NUNCA RETORNA algo, essas que utilizam RAISE
-
 
 # >> Sobre o Try:
 # Imagina que vc tem uma bola e quer relançar o
@@ -55,3 +59,11 @@ except (MeuError, ZeroDivisionError) as error:
 # esse trecho: except (...) as error, basicamrnte
 # criou uma variável error para armazenar os dois
 # tipos de erros mencionados.
+
+# >> Como eu passei esses args para meuError?
+#  exception_ = MeuError('a', 'b', 'c')
+# o meuError é uma classe:
+# class meuError(exception):
+#   pass
+# Então: nesse parâmetro exception ele suporta passar esses argumentos. Por esse motivo o que é
+# passado neles viram dados.
