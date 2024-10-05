@@ -94,14 +94,14 @@ notificar(notificacao_sms)
 
 # EITA! Lembra que str, o tipo de dado, é uma classe? 
 # Então, eu posso dizer que
-# notificacao (parâmetro) é do tipo de dado
+# notificacao (parâmetro) é do tipo de dado ":"
 #  -->  Notificacao(classe) 
 # (notificacao: Notificacao), o que acontece no código realmente.
 
 # Como ocorre: 
-# 
+# def notificar(notificacao: Notificacao):
+    notificacao_enviada = notificacao.enviar()
 
-
-# Também posso utilizar os métodos dentro da classe, como a str usadia o .upper()
+# Também posso utilizar os métodos de Notificação(classe), como a str usadia o .upper()
 # Ali usei o .enviar()
   
