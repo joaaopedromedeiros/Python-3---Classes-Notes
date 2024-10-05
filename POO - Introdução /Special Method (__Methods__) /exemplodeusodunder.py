@@ -1,4 +1,8 @@
 # Exemplo de uso de dunder methods (métodos mágicos)
+
+# Operações com esses objetos 
+# Ex. Objeto : C1 = algo, C1 é um objeto
+
 # __lt__(self,other) - self < other
 # __le__(self,other) - self <= other
 # __gt__(self,other) - self > other
