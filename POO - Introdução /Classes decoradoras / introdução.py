@@ -30,3 +30,10 @@ print(brasil)
 print(portugal)
 print(terra)
 print(marte)
+
+
+# OBSERVAÇÕES 
+
+# >> O CLS como parâmetro faz o a gente ter acesso as classes que o @... ficar em cima.
+# Assim, a gente consegue atribuir as coisas do
+# syntaxes sugar a classe de baixo normal. 
