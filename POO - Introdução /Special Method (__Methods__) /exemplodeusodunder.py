@@ -46,3 +46,12 @@ if __name__ == '__main__':
     print(p3)
     print('P1 é maior que p2', p1 > p2)
     print('P2 é maior que p1', p2 > p1)
+
+
+
+# OBSERVAÇÕES 
+# >> other.x? other.y?
+# Eu ativo o _add_, ou outro método, 
+# para usar com  objetos que possuem a mesma
+# classe! Então esse other.x é o da outra classe
+# que estiver somando. 
