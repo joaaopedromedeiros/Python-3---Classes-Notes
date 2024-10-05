@@ -25,6 +25,8 @@ class Ponto:
         class_name = type(self).__name__
         return f'{class_name}(x={self.x!r}, y={self.y!r})'
 
+
+# Criando o método para usar nos objetos de mesma classe 
     def __add__(self, other):
         novo_x = self.x + other.x
         novo_y = self.y + other.y
@@ -39,7 +41,8 @@ class Ponto:
 if __name__ == '__main__':
     p1 = Ponto(4, 2)  # 6
     p2 = Ponto(6, 4)  # 10
-    p3 = p1 + p2
+    p3 = p1 + p2 # self + other 
+
     print(p3)
     print('P1 é maior que p2', p1 > p2)
     print('P2 é maior que p1', p2 > p1)
