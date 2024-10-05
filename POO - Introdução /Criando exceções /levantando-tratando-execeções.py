@@ -67,6 +67,7 @@ except (MeuError, ZeroDivisionError) as error:
 #   pass
 # Então: nesse parâmetro exception ele suporta passar esses argumentos. Por esse motivo o que é
 # passado neles viram dados.
+# Por isso posso usar error.args 
 
 # >> Error ZeroDivisionError
 # Erro padrão do python
