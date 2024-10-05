@@ -22,7 +22,7 @@ from abc import ABC, abstractmethod
 # A Notificação pode ser sms, email, WhatsApp,
 # Notificação do próprio celular, cartorio. Então é abstrato. 
 # Usamos esse from abc import ABC, abstractmethod
-# Classe abstrata possui atributos similares,
+# Classe abstrata possui atributos similares com as filhas herdadas ( concretas )
 # mas que tem funcionalidades diferentes dependendo da situação 
 # ( Ex: FiguraPlana tem área indefinida com pass, Retângulo --> área definida ) 
 
