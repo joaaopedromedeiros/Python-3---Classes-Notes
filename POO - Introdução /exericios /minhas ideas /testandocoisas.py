@@ -2,7 +2,7 @@ class Teste:
     def __init__(self, x: str, y, p, usandoinput=None):
         self.x = f'Valor: {x}'
         self.y = y
-        self.UsarProperty = p
+        self._UsarProperty = p
         self.ValorInput = usandoinput
     
     
