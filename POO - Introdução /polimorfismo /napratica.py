@@ -86,6 +86,7 @@ notificar(notificacao_sms)
 # Obs¹: Siga o princípio de liskov, se a classe abstrata retorna boolean, as concretas também 
 # precisam RETORNAR! As concretas por padrão
 # Retornam None, lembre de mudar se for o caso
+# Método de assinatura (check)
 
 # >> Definindo tipo de dados de seus  parâmetros e seus argumentos, 
 # a fim de utilizar seus métodos de dados internamente com funções
