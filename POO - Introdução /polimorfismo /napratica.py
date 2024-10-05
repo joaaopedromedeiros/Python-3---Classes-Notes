@@ -81,3 +81,6 @@ notificar(notificacao_sms)
 # MUITO IMPORTANTE!
 # Você está falando para o(a) dev que vai usar o dado
 # verdadeiro ou falso no seu código a fim de executar algo
+
+# >> Definindo tipo de dados de seu  parâmetros e seus argumentos, a fim de utilizar seu métodos nas funções
+
