@@ -18,7 +18,7 @@ from abc import ABC, abstractmethod
 
 class Notificacao(ABC):
     def __init__(self, mensagem):
-        self.mensagem = mensagem
+        self.mensagem = mensagem # isso é um atributo
 
     @abstractmethod
     def enviar(self) -> bool: ...
