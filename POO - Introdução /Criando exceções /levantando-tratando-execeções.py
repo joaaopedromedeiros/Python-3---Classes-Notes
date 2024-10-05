@@ -36,3 +36,7 @@ except (MeuError, ZeroDivisionError) as error:
 #   raise meuError("A mensagem do meu erro")
 # Apenas de chamar isso dá erro
 # No código acima a dinâmica é a mesma mas chamou variável exception_ que possui a classe...
+
+
+# >> Comece a ler o traceback
+# Confira o passo a passo do erro
