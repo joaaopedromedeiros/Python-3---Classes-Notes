@@ -36,6 +36,7 @@ class Notificacao(ABC):
 # Abstrato pois as subclasses que vão definir o tipo de notificação a ser enviada. 
 
 # Obs²: Eu preciso utilizar essa classe abstrata em alguma concreta, passando através de herança (herdando de forma simples por exemplo)  
+# Sem utilizar em classes concretas, vc não vai conseguir usar ela ( é abastrata, nada certo ) 
 
 
 class NotificacaoEmail(Notificacao):
