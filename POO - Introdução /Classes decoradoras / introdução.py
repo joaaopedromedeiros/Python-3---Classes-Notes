@@ -12,6 +12,7 @@ def meu_repr(self):
 def adiciona_repr(cls):
     cls.__repr__ = meu_repr 
 # método cls.__repr__ = a outra função criada 
+# como se fosse atualizada 
     return cls
 
 
