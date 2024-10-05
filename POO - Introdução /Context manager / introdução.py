@@ -15,9 +15,15 @@
 # traceback. Se ele retornar True, exceção no with será
 # suprimidas.
 #
-# Ex:
+# Exemplo disso abaixo com context manager: 
 # with open('aula149.txt', 'w') as arquivo:
 #     ...
+
+
+
+
+
+
 class MyOpen:
     def __init__(self, caminho_arquivo, modo):
         self.caminho_arquivo = caminho_arquivo
