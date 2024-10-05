@@ -31,4 +31,7 @@ except (MeuError, ZeroDivisionError) as error:
 
 # OBSERVAÇÕES
 
-# >> ...
+# >> dinâmica simples do raise.
+# def levantar():
+#   raise meuError("A mensagem do meu erro")
+# Apenas de chamar isso dá erro
