@@ -13,7 +13,18 @@
 # por objetos de uma subclasse sem quebrar a aplicação.
 # Sobrecarga de métodos (overload)  🐍 = ❌
 # Sobreposição de métodos (override) 🐍 = ✅
+
+# Código abaixo
+
 from abc import ABC, abstractmethod
+
+# Por que abstrato? 
+# A Notificação pode ser sms, email, WhatsApp,
+# Notificação do próprio celular, cartorio. Então é abstrato.
+# Usamos esse from abc import ABC, abstractmethod
+# Classe abstrata possui atributos similares,
+# mas que tem funcionalidades diferentes dependendo da situação 
+# ( Ex: FiguraPlana tem área indefinida com pass, Retângulo --> área definida ) 
 
 
 class Notificacao(ABC):
