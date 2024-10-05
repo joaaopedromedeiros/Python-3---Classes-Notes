@@ -54,7 +54,7 @@ if __name__ == '__main__':
 # Eu ativo o _add_, ou outro método, 
 # para usar com  objetos que possuem a mesma
 # classe! Então esse other.x é o do outro objeto
-# da mesma classe que estiver somando. 
+# , da mesma classe, que estiver somando. 
 
 
 # >> sobre a operação p1 + p2
