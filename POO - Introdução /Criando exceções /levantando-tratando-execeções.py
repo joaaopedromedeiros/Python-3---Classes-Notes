@@ -10,11 +10,16 @@
 
 class MeuError(Exception):
     ...
+
 class OutroError(Exception):
     ...
 def levantar():
     exception_ = MeuError('a', 'b', 'c')
     raise exception_
+
+# Esse tipo de função NUNCA RETORNA algo, essas que utilizam RAISE
+
+
 try:
     levantar()
 except (MeuError, ZeroDivisionError) as error:
