@@ -103,7 +103,7 @@ notificar(notificacao_sms)
 
 # Como ocorre: 
 # def notificar(notificacao: Notificacao):
-    notificacao_enviada = notificacao.enviar()
+#    notificacao_enviada = notificacao.enviar()
 
 # Também posso utilizar os métodos de Notificação(classe), como a str usadia o .upper()
 # Ali usei o .enviar()
