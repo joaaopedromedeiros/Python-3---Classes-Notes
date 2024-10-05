@@ -12,5 +12,5 @@ class CallMe:
 
 
 call1 = CallMe('23945876545')
-retorno = call1('Luiz Otávio')
+retorno = call1('Luiz Otávio') # executei call1, pois é callable devido ter o __call__ no objeto
 print(retorno)
