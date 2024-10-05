@@ -33,10 +33,12 @@ class Notificacao(ABC):
 
     @abstractmethod
     def enviar(self) -> bool: ...
-# Abstrato pois as subclasses que vão definir o tipo de notificação a ser enviada. 
 
-# Obs²: Eu preciso utilizar essa classe abstrata em alguma concreta, passando através de herança (herdando de forma simples por exemplo)  
-# Sem utilizar em classes concretas, vc não vai conseguir usar ela ( é abastrata, nada certo ) 
+# Abstrato pois as subclasses que vão definir o tipo de notificação a ser enviada. 
+# Obs²: Eu preciso utilizar essa classe abstrata em alguma concreta, passando através de herança (herdando de forma simples por exemplo).  
+# Sem utilizar em classes concretas, vc não vai conseguir usar ela ( é abastrata, nada certo ). 
+
+
 
 
 class NotificacaoEmail(Notificacao):
@@ -65,3 +67,14 @@ notificar(notificacao_email)
 
 notificacao_sms = NotificacaoSMS('testando SMS')
 notificar(notificacao_sms)
+
+
+#OBSERVAÇÕES:
+
+# >> Criando as classes filhas de notificação
+# Quando herdei Notificação nas classes filhas eu 
+não utilizei o super().algumAtributoJáDefinidoAntes 
+# Devido não ter nenhum anteriormente e apenas
+# Criamos o print para cada situação e o seu retorno
+
+# >> Outra observação 
