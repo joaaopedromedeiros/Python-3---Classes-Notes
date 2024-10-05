@@ -33,6 +33,8 @@ except (MeuError, ZeroDivisionError) as error:
     exception_ = OutroError('Vou lançar de novo')
     raise exception_ from error
 
+# Após o excepct o error está sendo tratado
+
 # OBSERVAÇÕES
 
 # >> dinâmica simples do raise.
@@ -41,15 +43,13 @@ except (MeuError, ZeroDivisionError) as error:
 # Apenas de chamar isso dá erro
 # No código acima a dinâmica é a mesma mas chamou variável exception_ que possui a classe...
 
-
 # >> Comece a ler o traceback
 # Confira o passo a passo do erro
-
 
 # >> Observações except, revisão
 # try:
 #    levantar()
-#except (MeuError, ZeroDivisionError) as error:
+# except (MeuError, ZeroDivisionError) as error:
 #    print(error.__class__.__name__)
 #    .... resto do código
 # esse trecho: except (...) as error, basicamrnte
