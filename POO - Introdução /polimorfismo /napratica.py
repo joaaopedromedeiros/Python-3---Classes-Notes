@@ -65,6 +65,11 @@ def notificar(notificacao: Notificacao):
         print('Notificação NÃO enviada')
 
 
+# Polimorfismo? Aqui encontramos duas classes utilizando da classe Notificação
+# devido funções similares, igual nesse caso, 
+# mas por meio diferentes. Duas classes concretas
+# utilizando uma abstrata 
+
 notificacao_email = NotificacaoEmail('testando e-mail')
 notificar(notificacao_email)
 
