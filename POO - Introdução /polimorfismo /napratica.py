@@ -33,7 +33,9 @@ class Notificacao(ABC):
 
     @abstractmethod
     def enviar(self) -> bool: ...
-# Abstrato pois as subclasses que vão definir o tipo de notificação a ser enviada
+# Abstrato pois as subclasses que vão definir o tipo de notificação a ser enviada. 
+
+# Obs²: Eu preciso utilizar essa classe abstrata em alguma concreta, passando através de herança (herdando de forma simples por exemplo)  
 
 
 class NotificacaoEmail(Notificacao):
