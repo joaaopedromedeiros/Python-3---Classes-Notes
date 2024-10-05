@@ -85,7 +85,7 @@ notificar(notificacao_sms)
 # verdadeiro ou falso no seu código a fim de executar algo
 
 # >> Definindo tipo de dados de seus  parâmetros e seus argumentos, 
-# a fim de utilizar seu métodos internamente com funções
+# a fim de utilizar seus métodos de dados internamente com funções
 # def notificar(notificação: str):
 #     notificação.upper()
 # Obs¹: Caso passe algo diferente de string, isso apresenta error.
