@@ -44,6 +44,28 @@ class Ponto:
 # p1 = um objeto, Classe(Argumento1,Argumento2) 
 p1 = Ponto(1, 2)
 p2 = Ponto(978, 876)
+
 print(p1)
 print(repr(p2))
-print(f'{p2!r}')
+
+print(f'{p2!r}') 
+# esse !r é apenas para forçar que mostre a str +
+# __repr__. Sem isso só mostra o valor da str. 
+
+
+
+# OBSERVAÇÕES 
+
+# >> __repr__
+# Não se assuste, é simples! 
+# def __repr__(self):
+#        class_name = type(self).__name__
+#        return f'{class_name}(x={self.x!r}, 
+# y={self.y!r}, z={self.z!r})'
+
+# class_name = type(self).__name --> padrão
+# esse __name__ retorna nome da classe 
+# o return só chama o nome da classe & exibe 
+# o self.x, self.y e self.z como se fosse apenas
+# o STR. Mas, para chamar o __repr__ sem precisar
+# forçar com o print, ele também colocou !r neles.
