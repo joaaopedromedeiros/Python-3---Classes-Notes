@@ -5,6 +5,7 @@
 # @property é uma propriedade do objeto, ela
 # é um método que se comporta como um
 # atributo 🤯 🤯 🤯
+
 # Geralmente é usada nas seguintes situações:
 # - como getter
 # - p/ evitar quebrar código cliente
@@ -40,6 +41,13 @@ print(caneta.cor)
 print(caneta.cor)
 print(caneta.cor)
 print(caneta.cor_tampa)
+
+# O @property transforma a função/método  que executava com () e deixa executar "como se fosse atributo". Se a função retorna valores, com a instância.funcaoQueÉatributoAgora não precisa por mais instancia.função(). 
+
+# Mas eu já não conseguia exibir de todo jeito? #Mas fazendo isso eu consifo usar o setter, evito #dor de cabeça com quebra de código pois deixo a #variável principal privada e o usuário apenas #utiliza uma pública que vai retornar a original #( ou seja posso sempre muda o nome da original #que vai ficar retornada mesmo assim pela aquela #que é pública ) 
+
+
+
 
 # ####################################
 
