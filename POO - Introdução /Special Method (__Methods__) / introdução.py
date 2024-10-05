@@ -2,6 +2,12 @@
 # Dunder = Double Underscore = __dunder__
 # Antigo e útil: https://rszalski.github.io/magicmethods/
 # https://docs.python.org/3/reference/datamodel.html#specialnames
+# Para utilizar eles vcs precisam ssber a sssinatura dele, quantos objetos preciso? 
+# self -> 1 objeto
+# self and other ( +1 objeto) 
+
+
+
 # __lt__(self,other) - self < other
 " acima, checa se um objeto é menor ou igual "
 
