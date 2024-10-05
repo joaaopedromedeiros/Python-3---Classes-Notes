@@ -1,11 +1,17 @@
+# SIMILAR A FUNÇÕES CONSTRUTORAS
+# Não se assusta vc já faz isso! É simples.
+
 # __new__ e __init__ em classes Python
 # __new__ é o método responsável por criar e
 # retornar o novo objeto. Por isso, new recebe cls.
 # __new__ ❗️DEVE retornar o novo objeto❗️
 # __init__ é o método responsável por inicializar
 # a instância. Por isso, init recebe self.
-# __init__ ❗️NÃO DEVE retornar nada (None)❗️
+# __init__ ❗️NÃO DEVE retornar nada  --> (None)❗️
 # object é a super classe de uma classe
+
+
+
 class A:
     def __new__(cls, *args, **kwargs):
         instancia = super().__new__(cls)
@@ -21,3 +27,8 @@ class A:
 
 a = A(123)
 print(a.x)
+
+
+# OBSERVAÇÕES 
+# Ele que cria o objeto, ele que cria a instância 
+# objeto e instância são equivalentes.
