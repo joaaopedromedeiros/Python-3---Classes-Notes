@@ -20,7 +20,7 @@ from abc import ABC, abstractmethod
 
 # Por que abstrato? 
 # A Notificação pode ser sms, email, WhatsApp,
-# Notificação do próprio celular, cartorio. Então é abstrato.
+# Notificação do próprio celular, cartorio. Então é abstrato. 
 # Usamos esse from abc import ABC, abstractmethod
 # Classe abstrata possui atributos similares,
 # mas que tem funcionalidades diferentes dependendo da situação 
@@ -33,6 +33,7 @@ class Notificacao(ABC):
 
     @abstractmethod
     def enviar(self) -> bool: ...
+# Abstrato pois as subclasses que vão definir o tipo de notificação a ser enviada
 
 
 class NotificacaoEmail(Notificacao):
