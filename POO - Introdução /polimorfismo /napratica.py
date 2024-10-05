@@ -82,7 +82,10 @@ notificar(notificacao_sms)
 # >> -> bolean
 # MUITO IMPORTANTE!
 # Você está falando para o(a) dev que vai usar o dado
-# verdadeiro ou falso no seu código a fim de executar algo
+# verdadeiro ou falso no seu código a fim de executar algo,
+# Obs¹: Siga o princípio de liskov, se a classe abstrata retorna boolean, as concretas também 
+# precisam RETORNAR! As concretas por padrão
+# Retornam None, lembre de mudar se for o caso
 
 # >> Definindo tipo de dados de seus  parâmetros e seus argumentos, 
 # a fim de utilizar seus métodos de dados internamente com funções
@@ -104,4 +107,6 @@ notificar(notificacao_sms)
 
 # Também posso utilizar os métodos de Notificação(classe), como a str usadia o .upper()
 # Ali usei o .enviar()
+
+
   
