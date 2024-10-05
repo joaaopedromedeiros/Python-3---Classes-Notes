@@ -20,6 +20,10 @@ def levantar():
 # Esse tipo de função NUNCA RETORNA algo, essas que utilizam RAISE
 
 
+# >> Sobre o Try:
+# Imagina que vc tem uma bola e quer relançar o
+# erro no sistema. Vc faz assim: 
+
 try:
     levantar()
 except (MeuError, ZeroDivisionError) as error:
@@ -40,3 +44,14 @@ except (MeuError, ZeroDivisionError) as error:
 
 # >> Comece a ler o traceback
 # Confira o passo a passo do erro
+
+
+# >> Observações except, revisão
+# try:
+#    levantar()
+#except (MeuError, ZeroDivisionError) as error:
+#    print(error.__class__.__name__)
+#    .... resto do código
+# esse trecho: except (...) as error, basicamrnte
+# criou uma variável error para armazenar os dois
+# tipos de erros mencionados.
