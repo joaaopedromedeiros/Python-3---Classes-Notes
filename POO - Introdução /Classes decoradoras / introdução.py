@@ -10,7 +10,8 @@ def meu_repr(self):
 # criando acima as funcionalidades da syntaxes sugar ( acima é aquele repr de ver valor, dá pra fz com str ) 
 
 def adiciona_repr(cls):
-    cls.__repr__ = meu_repr
+    cls.__repr__ = meu_repr 
+# método cls.__repr__ = a outra função criada 
     return cls
 
 
