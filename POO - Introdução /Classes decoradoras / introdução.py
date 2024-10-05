@@ -6,6 +6,9 @@ def meu_repr(self):
     class_dict = self.__dict__
     class_repr = f'{class_name}({class_dict})'
     return class_repr
+
+# criando acima as funcionalidades da syntaxes sugar ( acima é aquele repr de ver valor, dá pra fz com str ) 
+
 def adiciona_repr(cls):
     cls.__repr__ = meu_repr
     return cls
