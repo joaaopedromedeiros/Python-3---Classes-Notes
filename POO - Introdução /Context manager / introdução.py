@@ -32,7 +32,7 @@ class MyOpen:
         return self._arquivo
 
 
-# Secunda coisa que executa 
+# Segunda coisa que executa 
 
 
     def __exit__(self, class_exception, exception_, traceback_):
