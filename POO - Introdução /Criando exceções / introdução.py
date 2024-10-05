@@ -9,3 +9,9 @@
 # Adicionando notas em exceções (3.11.0)
 class MeuError(Exception):
     ...
+
+
+#OBSERVAÇÕES 
+
+# >> Convenções 
+# Em python é COMUM E USUAL os desenvolvedores colocarem Error no final de suas exceções. 
