@@ -5,26 +5,26 @@
 # b - base 
 class Retangulo:
     def __init__(self, b, h):
-        self.b = b
-        self.h = h
+        self.__b = b
+        self.__h = h
         
     def setBase(self, b):
-        self.b = b 
+        self.__b = b 
     def setAltura(self, h):
-        self.h = h
+        self.__h = h
         
     def getBase(self, b):
-        return self.b 
+        return self.__b 
         
     def getAltura(self, h):
-        return self.h 
+        return self.__h 
     
     def CalcArea(self):
-        area = self.b * self.h
+        area = self.__b * self.__h
         return f'sua area é {area}'
         
     def CalcDiagonal(self):
-        diagonal = ((self.b)**2 + (self.h**2))** 0.5
+        diagonal = ((self.__b)**2 + (self.__h**2))** 0.5
         return f'sua diagonal é {diagonal}'
     
     def __str__(self):
