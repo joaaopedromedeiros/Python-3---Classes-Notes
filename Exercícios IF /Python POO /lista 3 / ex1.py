@@ -48,6 +48,9 @@ UI.main()
 
 
 
+# falta por os IF caso coloque 0 e levanta error value, pois não pd por 0 pq multiplica e zera tudo
+
+
 
         
     
