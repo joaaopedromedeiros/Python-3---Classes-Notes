@@ -45,7 +45,7 @@ UI.Main() # Classe + método retorna o valor do método = toda função que colo
 
 
 
-# Mesmo código mas com try
+# Mesmo código mas com try catch
 
 # Lista 10 - POO (Execeções)
 # Ex1 
