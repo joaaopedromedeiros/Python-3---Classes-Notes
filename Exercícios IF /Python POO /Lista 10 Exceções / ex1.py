@@ -47,7 +47,7 @@ UI.Main() # Classe + método retorna o valor do método = toda função que colo
 
 # Mesmo código mas com try catch
 
-# Lista 10 - POO (Execeções)
+# # Lista 10 - POO (Execeções)
 # Ex1 
 
 class Retangulo:
@@ -85,7 +85,7 @@ try:
     
     print(retangulo)
     retangulo.CalcArea()
-except ValueError:
-    print(" Número ou base devem ser maior que zero  ")
+except ValueError as erro:
+    print(erro) # O ValueError ocorrido é atribuido a erro
     
     
