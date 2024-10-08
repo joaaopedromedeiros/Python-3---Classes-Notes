@@ -29,8 +29,8 @@ class Contas:
         return self._a
     
     def soma(self):
-        return f'A soma é {self.getB() + self.getA()}' 
-        
+        return f'A soma é {self.getB() + self.getA()}'  
+        # Vc coloca os dois valores dentro de {...}, não é um {} pea cada um
         # Usando get acima
 
 #conta = Contas(1,2)
