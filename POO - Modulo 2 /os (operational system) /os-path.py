@@ -20,9 +20,14 @@
 # os.path.split: divide um caminho uma tupla (diretório, arquivo).
 # Por exemplo, os.path.split('/home/user/arquivo.txt')
 # retornaria ('/home/user', 'arquivo.txt').
+
+
 # os.path.exists: verifica se um caminho especificado existe.
+
 # os.path só trabalha com caminhos de arquivos e não faz nenhuma
 # operação de entrada/saída (I/O) com arquivos em si.
+
+
 import os
 caminho = os.path.join('Desktop', 'curso', 'arquivo.txt')
 # print(caminho)
