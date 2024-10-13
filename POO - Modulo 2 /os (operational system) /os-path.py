@@ -36,7 +36,7 @@ diretorio, arquivo = os.path.split(caminho)
 
 nome_arquivo, extensao_arquivo = os.path.splitext(arquivo)
 # nome_arquivo assume o valor da 1 tupla
-# e a extensao_arquivo é o outro arquivo
+# e a extensao_arquivo é o outro valor da tupla
 
 
 # print(nome_arquivo, extensao_arquivo)
