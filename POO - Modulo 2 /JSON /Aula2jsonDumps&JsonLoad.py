@@ -13,6 +13,7 @@ import json
 # from print import pprint
 
 from typing import TypedDict
+# Tipagem (Auxilia dms)
 
 
 class Movie(TypedDict):
