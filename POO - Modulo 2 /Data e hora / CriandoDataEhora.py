@@ -1,7 +1,10 @@
 # Criando datas com módulo datetime
 # datetime(ano, mês, dia)
-# datetime(ano, mês, dia, horas, minutos, segundos)
+# datetime(ano, mês, dia, horas, minutos, segundos) # horas, minutos e segundos opcionais 
+
 # datetime.strptime('DATA', 'FORMATO')
+# >> Conseguimos formatar, olha doc
+
 # datetime.now()
 # https://pt.wikipedia.org/wiki/Era_Unix
 # datetime.fromtimestamp(Unix Timestamp)
