@@ -40,7 +40,7 @@ string_json = '''
 Filme = json.loads(string_json) # formato json para python --> vira dict, tudo passa a ter formato python
 
 # print(filme, width=40)
-# print(filme['title'])
+# print(filme['title']) # usando métodos de dict pois virou dict o json
 # print(filme['characters'][0])
 # print(filme['year'] + 10)
 
