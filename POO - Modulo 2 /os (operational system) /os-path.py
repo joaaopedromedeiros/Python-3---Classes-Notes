@@ -32,7 +32,13 @@ import os
 caminho = os.path.join('Desktop', 'curso', 'arquivo.txt')
 # print(caminho)
 diretorio, arquivo = os.path.split(caminho)
+# Como da split, vc separa e vira tupla com 2 coisas e abaixo eu criei 2 variáveis 
+
 nome_arquivo, extensao_arquivo = os.path.splitext(arquivo)
+# nome_arquivo assume o valor da 1 tupla
+# e a extensao_arquivo é o outro arquivo
+
+
 # print(nome_arquivo, extensao_arquivo)
 # print(os.path.exists('/Users/luizotavio/Desktop/curso-python-rep'))
 # print(os.path.abspath('.'))
