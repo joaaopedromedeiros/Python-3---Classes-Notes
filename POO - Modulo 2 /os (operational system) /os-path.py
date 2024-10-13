@@ -4,10 +4,19 @@
 # arquivos em Windows, Mac ou Linux sem precisar se preocupar com as diferenças
 # entre esses sistemas.
 # Exemplos do os.path:
-# os.path.join: junta strings em um único caminho. Desse modo,
+# os.path.join: junta strings em um único caminho. 
+
+# Desse modo,
+# Define o nome das pastas e arquivos que precisa acessar sem se preocupar com o sistema ( se è \ ou /): 
+
 # os.path.join('pasta1', 'pasta2', 'arquivo.txt') retornaria
+
+# Independente do sistema operacional iria adaptar como acessar as pastas: 
+
 # 'pasta1/pasta2/arquivo.txt' no Linux ou Mac, e
 # 'pasta1\pasta2\arquivo.txt' no Windows.
+
+
 # os.path.split: divide um caminho uma tupla (diretório, arquivo).
 # Por exemplo, os.path.split('/home/user/arquivo.txt')
 # retornaria ('/home/user', 'arquivo.txt').
