@@ -35,10 +35,15 @@ string_json = '''
   "budget": null
 }
 '''
-filme: Movie = json.loads(string_json)
+
+
+Filme = json.loads(string_json) # formato json para python --> vira dict, tudo passa a ter formato python
+
 # print(filme, width=40)
 # print(filme['title'])
 # print(filme['characters'][0])
 # print(filme['year'] + 10)
+
 json_string = json.dumps(filme, ensure_ascii=False, indent=2)
+
 print(json_string)
