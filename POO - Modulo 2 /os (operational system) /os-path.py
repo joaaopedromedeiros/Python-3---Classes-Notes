@@ -20,7 +20,7 @@
 # os.path.split: divide um caminho uma tupla (diretório, arquivo).
 # Por exemplo, os.path.split('/home/user/arquivo.txt')
 # retornaria ('/home/user', 'arquivo.txt').
-
+#              diretorio.     arquivo
 
 # os.path.exists: verifica se um caminho especificado existe.
 
