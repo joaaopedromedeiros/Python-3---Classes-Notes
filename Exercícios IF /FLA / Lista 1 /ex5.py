@@ -1,3 +1,6 @@
+# NÃO È 5, É A 7... o resto era só analisar e responder
+
+
 a = int(input("Digite um número: "))
 b = int(input("Digite um número: "))
 
