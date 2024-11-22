@@ -1,0 +1,108 @@
+class Pais:
+    def __init__(self, nome,populacao, area):
+        
+        self._nome = nome
+        self._populacao = populacao
+        self._area = area
+    
+    #gets
+    
+    def getNome(self):
+        return self._nome
+        
+    def getPopulacao(self):
+        return self._populacao
+    
+    def getArea(self):
+        return self._area
+    
+    # sets
+    
+    def setNome(self, nome):
+        self._nome = nome
+    
+    def setPopulacao(self, populacao):
+        self._populacao = populacao
+    
+    def setArea(self, area):
+        self._area = area
+    
+    def Densidade(self):
+        densidade = self.getPopulacao()/self.getArea()
+        return densidade
+        
+    
+    def __str__(self):
+        return f"País: {self._nome}, População: {self._populacao} e Area: {self._area}"
+        
+    
+ # fora
+ 
+#Teste = Pais("Brasil", 1, 2)
+#Teste.Densidade()
+#Teste.setArea(10)
+#Teste.Densidade()
+
+paises = []
+
+
+def MainUI():
+    validador = 0
+    
+    while validador != 10:
+        nome = input("Digite o nome de um pais: ")
+        populacao = input("Digite a polulação do pais: ")
+        area = input("Digite a area territorial desse pais: ")
+        
+        try:
+            area = float(area)
+            populacao = float(populacao)
+        except TypeError and ValueError:
+            print("Você não pode definir espaço ou letras para a área ou população!")
+            
+        
+    
+            
+        
+        NovoPais = Pais(nome,populacao, area)
+        
+        paises.append(NovoPais)
+        
+        print("-----------------------")
+        print("Atual lista de países: ")
+        for pais in paises:
+            print(pais)
+        print("------------------------")
+        
+        maior = 0
+        pais_maior = None 
+        
+        
+        for pais in paises:
+            if maior < pais.Densidade():
+                maior = pais.Densidade()
+                pais_maior = pais
+        
+        
+        
+        
+        
+        validador += 1
+    
+    if validador == 10:
+         print(f" A maior densidade é {maior} hab/m², país {pais_maior.getNome()} ")
+    
+        
+        
+        
+        
+        
+        
+
+
+MainUI()
+        
+        
+    
+ 
+  
